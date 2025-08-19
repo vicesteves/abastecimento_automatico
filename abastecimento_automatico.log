@@ -1,0 +1,1241 @@
+2025-08-17 16:10:49,510 - INFO - Obtendo token de autenticação Mottu...
+2025-08-17 16:10:50,351 - INFO - Token Mottu obtido com sucesso.
+2025-08-17 16:10:50,353 - INFO - Usando planilha: separacaoAmanha.xlsx
+2025-08-17 16:10:50,912 - INFO - Planilha válida com 2 linhas
+2025-08-17 16:10:50,981 - INFO - Enviando card para filial e7164c8f-cb6a-476c-a88e-f876573eb486 com 1 itens
+2025-08-17 16:10:51,710 - INFO - [SUCESSO] Card enviado para filial e7164c8f-cb6a-476c-a88e-f876573eb486
+2025-08-17 16:10:51,756 - INFO - Enviando card para filial e7164c8f-cb6a-476c-a88e-f876573eb486 com 1 itens
+2025-08-17 16:10:54,079 - INFO - [SUCESSO] Card enviado para filial e7164c8f-cb6a-476c-a88e-f876573eb486
+2025-08-17 16:10:54,154 - INFO - Relatório Excel detalhado salvo com sucesso em C:\Users\Victor Rodrigues\OneDrive - mottu.com.br\Área de Trabalho\psiAbastecimento\Relatorio_Abastecimento_Detalhado_2025-08-17_161054.xlsx
+2025-08-17 16:10:54,199 - INFO - Arquivo de backlog 'backlog_cards_semana.xlsx' salvo com sucesso com 2 registros.
+2025-08-17 16:10:54,610 - INFO - Relatório enviado por e-mail com sucesso via API Mottu.
+2025-08-17 17:07:45,326 - INFO - Obtendo token de autenticação Mottu...
+2025-08-17 17:07:46,160 - INFO - Token Mottu obtido com sucesso.
+2025-08-17 17:07:46,160 - INFO - Usando planilha: separacaoAmanha.xlsx
+2025-08-17 17:07:51,011 - INFO - Planilha válida com 12154 linhas
+2025-08-17 17:07:51,083 - INFO - Enviando card para filial 116f058e-c63e-46f7-970a-b30b2f053687 com 10 itens
+2025-08-17 17:07:51,930 - INFO - [SUCESSO] Card enviado para filial 116f058e-c63e-46f7-970a-b30b2f053687
+2025-08-17 17:07:51,956 - INFO - Enviando card para filial 11b04f8f-0797-4829-aa57-6599fdd13a3f com 3 itens
+2025-08-17 17:07:53,557 - INFO - [SUCESSO] Card enviado para filial 11b04f8f-0797-4829-aa57-6599fdd13a3f
+2025-08-17 17:07:53,593 - INFO - Enviando card para filial 12af3122-8454-42e5-a349-fec98a7a8a33 com 14 itens
+2025-08-17 17:07:54,193 - INFO - [SUCESSO] Card enviado para filial 12af3122-8454-42e5-a349-fec98a7a8a33
+2025-08-17 17:07:54,234 - INFO - Enviando card para filial 16ed56e7-e35e-4afb-b013-efa4c9f390ec com 4 itens
+2025-08-17 17:07:54,711 - INFO - [SUCESSO] Card enviado para filial 16ed56e7-e35e-4afb-b013-efa4c9f390ec
+2025-08-17 17:07:54,756 - INFO - Enviando card para filial 193312c6-d6d9-403c-9749-c2073b242bdc com 8 itens
+2025-08-17 17:07:56,275 - INFO - [SUCESSO] Card enviado para filial 193312c6-d6d9-403c-9749-c2073b242bdc
+2025-08-17 17:07:56,314 - INFO - Enviando card para filial 1e67b6f1-bb80-47c1-ac38-1d8943cde328 com 5 itens
+2025-08-17 17:07:56,856 - INFO - [SUCESSO] Card enviado para filial 1e67b6f1-bb80-47c1-ac38-1d8943cde328
+2025-08-17 17:07:56,887 - INFO - Enviando card para filial 1f7c9d80-8c0c-44a3-ac51-75f1f39fee9c com 18 itens
+2025-08-17 17:07:57,936 - INFO - [SUCESSO] Card enviado para filial 1f7c9d80-8c0c-44a3-ac51-75f1f39fee9c
+2025-08-17 17:07:57,967 - INFO - Enviando card para filial 20b110f6-1d6f-41b9-a2b3-e591607d2b7c com 4 itens
+2025-08-17 17:07:58,823 - INFO - [SUCESSO] Card enviado para filial 20b110f6-1d6f-41b9-a2b3-e591607d2b7c
+2025-08-17 17:07:58,860 - INFO - Enviando card para filial 227b263a-82d3-487b-a5e8-d85a282e483f com 11 itens
+2025-08-17 17:07:59,321 - INFO - [SUCESSO] Card enviado para filial 227b263a-82d3-487b-a5e8-d85a282e483f
+2025-08-17 17:07:59,356 - INFO - Enviando card para filial 22bd8a16-7c91-4219-ad7e-4dc169d701f3 com 8 itens
+2025-08-17 17:07:59,992 - INFO - [SUCESSO] Card enviado para filial 22bd8a16-7c91-4219-ad7e-4dc169d701f3
+2025-08-17 17:08:00,037 - INFO - Enviando card para filial 260e0f2e-d3a0-49e1-994f-d8f679e42758 com 4 itens
+2025-08-17 17:08:00,498 - INFO - [SUCESSO] Card enviado para filial 260e0f2e-d3a0-49e1-994f-d8f679e42758
+2025-08-17 17:08:00,535 - INFO - Enviando card para filial 297efd59-93fb-4768-a48f-d68c700cc7af com 6 itens
+2025-08-17 17:08:01,132 - INFO - [SUCESSO] Card enviado para filial 297efd59-93fb-4768-a48f-d68c700cc7af
+2025-08-17 17:08:01,166 - INFO - Enviando card para filial 2ba372aa-5854-45e5-80d5-cb45469cae78 com 4 itens
+2025-08-17 17:08:01,686 - INFO - [SUCESSO] Card enviado para filial 2ba372aa-5854-45e5-80d5-cb45469cae78
+2025-08-17 17:08:01,731 - INFO - Enviando card para filial 2be12bba-e8fb-4780-8c07-8bb17620a2ae com 6 itens
+2025-08-17 17:08:02,116 - INFO - [SUCESSO] Card enviado para filial 2be12bba-e8fb-4780-8c07-8bb17620a2ae
+2025-08-17 17:08:02,158 - INFO - Enviando card para filial 2d350ffd-613f-4888-97d9-554f50047297 com 6 itens
+2025-08-17 17:08:02,719 - INFO - [SUCESSO] Card enviado para filial 2d350ffd-613f-4888-97d9-554f50047297
+2025-08-17 17:08:02,749 - INFO - Enviando card para filial 31a0646a-78dd-4dae-a28a-5b98bfdd3f4c com 9 itens
+2025-08-17 17:08:03,382 - INFO - [SUCESSO] Card enviado para filial 31a0646a-78dd-4dae-a28a-5b98bfdd3f4c
+2025-08-17 17:08:03,408 - INFO - Enviando card para filial 3e27ee18-9ae8-433b-bace-c533a05b7001 com 25 itens
+2025-08-17 17:08:04,670 - INFO - [SUCESSO] Card enviado para filial 3e27ee18-9ae8-433b-bace-c533a05b7001
+2025-08-17 17:08:04,701 - INFO - Enviando card para filial 417b8f24-0d7d-42a5-bc53-75b17b9c76cb com 4 itens
+2025-08-17 17:08:05,096 - INFO - [SUCESSO] Card enviado para filial 417b8f24-0d7d-42a5-bc53-75b17b9c76cb
+2025-08-17 17:08:05,153 - INFO - Enviando card para filial 41b375c7-5e7e-46d2-bd42-187418fc9ef7 com 8 itens
+2025-08-17 17:08:05,744 - INFO - [SUCESSO] Card enviado para filial 41b375c7-5e7e-46d2-bd42-187418fc9ef7
+2025-08-17 17:08:05,768 - INFO - Enviando card para filial 471286dd-d5c9-489d-8f26-05703e8e2d32 com 4 itens
+2025-08-17 17:08:07,031 - INFO - [SUCESSO] Card enviado para filial 471286dd-d5c9-489d-8f26-05703e8e2d32
+2025-08-17 17:08:07,075 - INFO - Enviando card para filial 47d3864c-6787-4510-a7d0-96870bf7fc12 com 2 itens
+2025-08-17 17:08:07,537 - INFO - [SUCESSO] Card enviado para filial 47d3864c-6787-4510-a7d0-96870bf7fc12
+2025-08-17 17:08:07,569 - INFO - Enviando card para filial 47e38b54-20d2-4c96-8d08-20a1b53e6952 com 3 itens
+2025-08-17 17:08:07,957 - INFO - [SUCESSO] Card enviado para filial 47e38b54-20d2-4c96-8d08-20a1b53e6952
+2025-08-17 17:08:08,002 - INFO - Enviando card para filial 48271ae5-bb0e-471a-a5de-23ba3d42fecd com 7 itens
+2025-08-17 17:08:08,594 - INFO - [SUCESSO] Card enviado para filial 48271ae5-bb0e-471a-a5de-23ba3d42fecd
+2025-08-17 17:08:08,631 - INFO - Enviando card para filial 49612705-ae23-4a05-804d-0d21b9335ffc com 1 itens
+2025-08-17 17:08:09,074 - INFO - [SUCESSO] Card enviado para filial 49612705-ae23-4a05-804d-0d21b9335ffc
+2025-08-17 17:08:09,116 - INFO - Enviando card para filial 4a90db1f-212f-41c4-bf75-d4bcebf68122 com 3 itens
+2025-08-17 17:08:10,188 - INFO - [SUCESSO] Card enviado para filial 4a90db1f-212f-41c4-bf75-d4bcebf68122
+2025-08-17 17:08:10,221 - INFO - Enviando card para filial 4b88f54f-8932-4e7d-bb9e-0b11dedd62f7 com 7 itens
+2025-08-17 17:08:10,622 - INFO - [SUCESSO] Card enviado para filial 4b88f54f-8932-4e7d-bb9e-0b11dedd62f7
+2025-08-17 17:08:10,657 - INFO - Enviando card para filial 4bb058e7-b58e-45a8-8ff4-e6196f04492b com 2 itens
+2025-08-17 17:08:11,486 - INFO - [SUCESSO] Card enviado para filial 4bb058e7-b58e-45a8-8ff4-e6196f04492b
+2025-08-17 17:08:11,515 - INFO - Enviando card para filial 4f969e0e-489d-4ef2-b7b0-fcab933a9187 com 3 itens
+2025-08-17 17:08:12,085 - INFO - [SUCESSO] Card enviado para filial 4f969e0e-489d-4ef2-b7b0-fcab933a9187
+2025-08-17 17:08:12,115 - INFO - Enviando card para filial 51ef4367-be7e-408a-a655-fad1934e7e1f com 4 itens
+2025-08-17 17:08:12,537 - INFO - [SUCESSO] Card enviado para filial 51ef4367-be7e-408a-a655-fad1934e7e1f
+2025-08-17 17:08:12,567 - INFO - Enviando card para filial 522ce379-9d52-4bfc-bd20-8c157641c2fc com 2 itens
+2025-08-17 17:08:14,031 - INFO - [SUCESSO] Card enviado para filial 522ce379-9d52-4bfc-bd20-8c157641c2fc
+2025-08-17 17:08:14,080 - INFO - Enviando card para filial 5706a5cb-b6d4-4915-ac0f-813c71ec8821 com 8 itens
+2025-08-17 17:08:14,636 - INFO - [SUCESSO] Card enviado para filial 5706a5cb-b6d4-4915-ac0f-813c71ec8821
+2025-08-17 17:08:14,675 - INFO - Enviando card para filial 5b0da418-1e10-4154-a25d-558e34150579 com 30 itens
+2025-08-17 17:08:15,361 - INFO - [SUCESSO] Card enviado para filial 5b0da418-1e10-4154-a25d-558e34150579
+2025-08-17 17:08:15,398 - INFO - Enviando card para filial 5b0da418-1e10-4154-a25d-558e34150579 com 30 itens
+2025-08-17 17:08:15,941 - INFO - [SUCESSO] Card enviado para filial 5b0da418-1e10-4154-a25d-558e34150579
+2025-08-17 17:08:15,986 - INFO - Enviando card para filial 5b0da418-1e10-4154-a25d-558e34150579 com 30 itens
+2025-08-17 17:08:16,463 - INFO - [SUCESSO] Card enviado para filial 5b0da418-1e10-4154-a25d-558e34150579
+2025-08-17 17:08:16,504 - INFO - Enviando card para filial 5b0da418-1e10-4154-a25d-558e34150579 com 30 itens
+2025-08-17 17:08:17,143 - INFO - [SUCESSO] Card enviado para filial 5b0da418-1e10-4154-a25d-558e34150579
+2025-08-17 17:08:17,185 - INFO - Enviando card para filial 5b0da418-1e10-4154-a25d-558e34150579 com 30 itens
+2025-08-17 17:08:17,891 - INFO - [SUCESSO] Card enviado para filial 5b0da418-1e10-4154-a25d-558e34150579
+2025-08-17 17:08:17,933 - INFO - Enviando card para filial 5b0da418-1e10-4154-a25d-558e34150579 com 30 itens
+2025-08-17 17:08:18,998 - INFO - [SUCESSO] Card enviado para filial 5b0da418-1e10-4154-a25d-558e34150579
+2025-08-17 17:08:19,022 - INFO - Enviando card para filial 5b0da418-1e10-4154-a25d-558e34150579 com 30 itens
+2025-08-17 17:08:20,499 - INFO - [SUCESSO] Card enviado para filial 5b0da418-1e10-4154-a25d-558e34150579
+2025-08-17 17:08:20,553 - INFO - Enviando card para filial 5b0da418-1e10-4154-a25d-558e34150579 com 2 itens
+2025-08-17 17:08:20,911 - INFO - [SUCESSO] Card enviado para filial 5b0da418-1e10-4154-a25d-558e34150579
+2025-08-17 17:08:20,962 - INFO - Enviando card para filial 5bbfecc8-d2ea-4878-831b-3a506ee5f894 com 30 itens
+2025-08-17 17:08:21,908 - INFO - [SUCESSO] Card enviado para filial 5bbfecc8-d2ea-4878-831b-3a506ee5f894
+2025-08-17 17:08:21,934 - INFO - Enviando card para filial 5bbfecc8-d2ea-4878-831b-3a506ee5f894 com 30 itens
+2025-08-17 17:08:22,523 - INFO - [SUCESSO] Card enviado para filial 5bbfecc8-d2ea-4878-831b-3a506ee5f894
+2025-08-17 17:08:22,579 - INFO - Enviando card para filial 5bbfecc8-d2ea-4878-831b-3a506ee5f894 com 6 itens
+2025-08-17 17:08:23,498 - INFO - [SUCESSO] Card enviado para filial 5bbfecc8-d2ea-4878-831b-3a506ee5f894
+2025-08-17 17:08:23,530 - INFO - Enviando card para filial 5d1e9f03-11d7-462b-ad96-e2abc02b8e47 com 15 itens
+2025-08-17 17:08:24,101 - INFO - [SUCESSO] Card enviado para filial 5d1e9f03-11d7-462b-ad96-e2abc02b8e47
+2025-08-17 17:08:24,130 - INFO - Enviando card para filial 6405a0eb-afca-4819-9cb5-1212be52513f com 4 itens
+2025-08-17 17:08:24,519 - INFO - [SUCESSO] Card enviado para filial 6405a0eb-afca-4819-9cb5-1212be52513f
+2025-08-17 17:08:24,556 - INFO - Enviando card para filial 67273cad-808c-4726-8cf1-cc7382e5bcc7 com 5 itens
+2025-08-17 17:08:24,998 - INFO - [SUCESSO] Card enviado para filial 67273cad-808c-4726-8cf1-cc7382e5bcc7
+2025-08-17 17:08:25,023 - INFO - Enviando card para filial 6e9f0f75-ad77-46f8-83ff-307d82a94cb0 com 30 itens
+2025-08-17 17:08:25,534 - INFO - [SUCESSO] Card enviado para filial 6e9f0f75-ad77-46f8-83ff-307d82a94cb0
+2025-08-17 17:08:25,560 - INFO - Enviando card para filial 6e9f0f75-ad77-46f8-83ff-307d82a94cb0 com 30 itens
+2025-08-17 17:08:27,007 - INFO - [SUCESSO] Card enviado para filial 6e9f0f75-ad77-46f8-83ff-307d82a94cb0
+2025-08-17 17:08:27,042 - INFO - Enviando card para filial 6e9f0f75-ad77-46f8-83ff-307d82a94cb0 com 30 itens
+2025-08-17 17:08:27,981 - INFO - [SUCESSO] Card enviado para filial 6e9f0f75-ad77-46f8-83ff-307d82a94cb0
+2025-08-17 17:08:28,040 - INFO - Enviando card para filial 6e9f0f75-ad77-46f8-83ff-307d82a94cb0 com 30 itens
+2025-08-17 17:08:28,506 - INFO - [SUCESSO] Card enviado para filial 6e9f0f75-ad77-46f8-83ff-307d82a94cb0
+2025-08-17 17:08:28,544 - INFO - Enviando card para filial 6e9f0f75-ad77-46f8-83ff-307d82a94cb0 com 30 itens
+2025-08-17 17:08:29,287 - INFO - [SUCESSO] Card enviado para filial 6e9f0f75-ad77-46f8-83ff-307d82a94cb0
+2025-08-17 17:08:29,322 - INFO - Enviando card para filial 6e9f0f75-ad77-46f8-83ff-307d82a94cb0 com 30 itens
+2025-08-17 17:08:29,802 - INFO - [SUCESSO] Card enviado para filial 6e9f0f75-ad77-46f8-83ff-307d82a94cb0
+2025-08-17 17:08:29,859 - INFO - Enviando card para filial 6e9f0f75-ad77-46f8-83ff-307d82a94cb0 com 30 itens
+2025-08-17 17:08:30,558 - INFO - [SUCESSO] Card enviado para filial 6e9f0f75-ad77-46f8-83ff-307d82a94cb0
+2025-08-17 17:08:30,584 - INFO - Enviando card para filial 6e9f0f75-ad77-46f8-83ff-307d82a94cb0 com 12 itens
+2025-08-17 17:08:31,124 - INFO - [SUCESSO] Card enviado para filial 6e9f0f75-ad77-46f8-83ff-307d82a94cb0
+2025-08-17 17:08:31,157 - INFO - Enviando card para filial 6f972e71-0d1b-4942-b5b4-dfbba9e63d9f com 30 itens
+2025-08-17 17:08:31,800 - INFO - [SUCESSO] Card enviado para filial 6f972e71-0d1b-4942-b5b4-dfbba9e63d9f
+2025-08-17 17:08:31,855 - INFO - Enviando card para filial 6f972e71-0d1b-4942-b5b4-dfbba9e63d9f com 30 itens
+2025-08-17 17:08:32,315 - INFO - [SUCESSO] Card enviado para filial 6f972e71-0d1b-4942-b5b4-dfbba9e63d9f
+2025-08-17 17:08:32,344 - INFO - Enviando card para filial 6f972e71-0d1b-4942-b5b4-dfbba9e63d9f com 8 itens
+2025-08-17 17:08:32,879 - INFO - [SUCESSO] Card enviado para filial 6f972e71-0d1b-4942-b5b4-dfbba9e63d9f
+2025-08-17 17:08:32,917 - INFO - Enviando card para filial 72631afe-9fbb-4e20-88af-a55936a168b4 com 4 itens
+2025-08-17 17:08:33,481 - INFO - [SUCESSO] Card enviado para filial 72631afe-9fbb-4e20-88af-a55936a168b4
+2025-08-17 17:08:33,536 - INFO - Enviando card para filial 72f73fec-82d5-4366-85b1-95d9513d7137 com 2 itens
+2025-08-17 17:08:34,013 - INFO - [SUCESSO] Card enviado para filial 72f73fec-82d5-4366-85b1-95d9513d7137
+2025-08-17 17:08:34,038 - INFO - Enviando card para filial 76d08c70-e4bb-45a6-8cd8-00885c19eca8 com 8 itens
+2025-08-17 17:08:34,474 - INFO - [SUCESSO] Card enviado para filial 76d08c70-e4bb-45a6-8cd8-00885c19eca8
+2025-08-17 17:08:34,521 - INFO - Enviando card para filial 7738342d-77d5-480b-9739-acfe88e9dbc2 com 6 itens
+2025-08-17 17:08:34,935 - INFO - [SUCESSO] Card enviado para filial 7738342d-77d5-480b-9739-acfe88e9dbc2
+2025-08-17 17:08:34,957 - INFO - Enviando card para filial 79a05179-222c-4dfc-929a-2f4ed72a54ea com 8 itens
+2025-08-17 17:08:35,378 - INFO - [SUCESSO] Card enviado para filial 79a05179-222c-4dfc-929a-2f4ed72a54ea
+2025-08-17 17:08:35,435 - INFO - Enviando card para filial 79b479a9-f742-44d8-bc70-48bf3c917f15 com 8 itens
+2025-08-17 17:08:35,887 - INFO - [SUCESSO] Card enviado para filial 79b479a9-f742-44d8-bc70-48bf3c917f15
+2025-08-17 17:08:35,940 - INFO - Enviando card para filial 7ec40963-3df8-4e3f-a494-0b9909275960 com 30 itens
+2025-08-17 17:08:36,418 - INFO - [SUCESSO] Card enviado para filial 7ec40963-3df8-4e3f-a494-0b9909275960
+2025-08-17 17:08:36,468 - INFO - Enviando card para filial 7ec40963-3df8-4e3f-a494-0b9909275960 com 30 itens
+2025-08-17 17:08:36,886 - INFO - [SUCESSO] Card enviado para filial 7ec40963-3df8-4e3f-a494-0b9909275960
+2025-08-17 17:08:36,931 - INFO - Enviando card para filial 7ec40963-3df8-4e3f-a494-0b9909275960 com 11 itens
+2025-08-17 17:08:37,457 - INFO - [SUCESSO] Card enviado para filial 7ec40963-3df8-4e3f-a494-0b9909275960
+2025-08-17 17:08:37,491 - INFO - Enviando card para filial 80406b32-0c25-46dd-a8b3-f4e2942c3108 com 9 itens
+2025-08-17 17:08:38,320 - INFO - [SUCESSO] Card enviado para filial 80406b32-0c25-46dd-a8b3-f4e2942c3108
+2025-08-17 17:08:38,371 - INFO - Enviando card para filial 8636bd20-d74a-4f2e-bcc5-6ea55e6e2458 com 7 itens
+2025-08-17 17:08:38,989 - INFO - [SUCESSO] Card enviado para filial 8636bd20-d74a-4f2e-bcc5-6ea55e6e2458
+2025-08-17 17:08:39,029 - INFO - Enviando card para filial 8729fcdf-7e03-403d-ac45-af762e812853 com 12 itens
+2025-08-17 17:08:39,839 - INFO - [SUCESSO] Card enviado para filial 8729fcdf-7e03-403d-ac45-af762e812853
+2025-08-17 17:08:39,928 - INFO - Enviando card para filial 88f5763a-7085-49cb-bdbd-e1db4bbf684b com 11 itens
+2025-08-17 17:08:40,931 - INFO - [SUCESSO] Card enviado para filial 88f5763a-7085-49cb-bdbd-e1db4bbf684b
+2025-08-17 17:08:40,964 - INFO - Enviando card para filial 89790b55-a253-451b-9fde-d4dfebeb1c2e com 19 itens
+2025-08-17 17:08:41,413 - INFO - [SUCESSO] Card enviado para filial 89790b55-a253-451b-9fde-d4dfebeb1c2e
+2025-08-17 17:08:41,459 - INFO - Enviando card para filial 8e9cd138-a986-46d9-98a1-5e825977cef7 com 5 itens
+2025-08-17 17:08:41,872 - INFO - [SUCESSO] Card enviado para filial 8e9cd138-a986-46d9-98a1-5e825977cef7
+2025-08-17 17:08:41,940 - INFO - Enviando card para filial 9604de9f-b2f4-494a-a2b5-29505ce93316 com 2 itens
+2025-08-17 17:08:42,444 - INFO - [SUCESSO] Card enviado para filial 9604de9f-b2f4-494a-a2b5-29505ce93316
+2025-08-17 17:08:42,495 - INFO - Enviando card para filial 9958cd88-755f-45ac-b600-b9eda540f9f9 com 14 itens
+2025-08-17 17:08:43,145 - INFO - [SUCESSO] Card enviado para filial 9958cd88-755f-45ac-b600-b9eda540f9f9
+2025-08-17 17:08:43,181 - INFO - Enviando card para filial 9ec2b257-c60a-48bf-93d6-3cf93657ec2b com 5 itens
+2025-08-17 17:08:44,438 - INFO - [SUCESSO] Card enviado para filial 9ec2b257-c60a-48bf-93d6-3cf93657ec2b
+2025-08-17 17:08:44,478 - INFO - Enviando card para filial 9f58344c-5f4c-4fc0-8f64-2fe4b2632744 com 7 itens
+2025-08-17 17:08:44,899 - INFO - [SUCESSO] Card enviado para filial 9f58344c-5f4c-4fc0-8f64-2fe4b2632744
+2025-08-17 17:08:44,957 - INFO - Enviando card para filial a01ec5e4-df66-4be5-b2e3-a0ca93f638bb com 30 itens
+2025-08-17 17:08:45,465 - INFO - [SUCESSO] Card enviado para filial a01ec5e4-df66-4be5-b2e3-a0ca93f638bb
+2025-08-17 17:08:45,529 - INFO - Enviando card para filial a01ec5e4-df66-4be5-b2e3-a0ca93f638bb com 30 itens
+2025-08-17 17:08:46,118 - INFO - [SUCESSO] Card enviado para filial a01ec5e4-df66-4be5-b2e3-a0ca93f638bb
+2025-08-17 17:08:46,163 - INFO - Enviando card para filial a01ec5e4-df66-4be5-b2e3-a0ca93f638bb com 5 itens
+2025-08-17 17:08:46,725 - INFO - [SUCESSO] Card enviado para filial a01ec5e4-df66-4be5-b2e3-a0ca93f638bb
+2025-08-17 17:08:46,787 - INFO - Enviando card para filial a471ca50-1b3d-4646-af07-177c2c73ad0b com 12 itens
+2025-08-17 17:08:47,240 - INFO - [SUCESSO] Card enviado para filial a471ca50-1b3d-4646-af07-177c2c73ad0b
+2025-08-17 17:08:47,303 - INFO - Enviando card para filial a69c94fc-e6f3-49b6-84b4-cac4833cbed1 com 13 itens
+2025-08-17 17:08:47,906 - INFO - [SUCESSO] Card enviado para filial a69c94fc-e6f3-49b6-84b4-cac4833cbed1
+2025-08-17 17:08:47,957 - INFO - Enviando card para filial b2f79c8e-9e2e-4b42-9118-b3236540ba70 com 30 itens
+2025-08-17 17:08:48,414 - INFO - [SUCESSO] Card enviado para filial b2f79c8e-9e2e-4b42-9118-b3236540ba70
+2025-08-17 17:08:48,457 - INFO - Enviando card para filial b2f79c8e-9e2e-4b42-9118-b3236540ba70 com 30 itens
+2025-08-17 17:08:49,127 - INFO - [SUCESSO] Card enviado para filial b2f79c8e-9e2e-4b42-9118-b3236540ba70
+2025-08-17 17:08:49,229 - INFO - Enviando card para filial b2f79c8e-9e2e-4b42-9118-b3236540ba70 com 7 itens
+2025-08-17 17:08:49,643 - INFO - [SUCESSO] Card enviado para filial b2f79c8e-9e2e-4b42-9118-b3236540ba70
+2025-08-17 17:08:49,679 - INFO - Enviando card para filial b9158bfb-5b40-4b0b-89db-ed8eed45a789 com 3 itens
+2025-08-17 17:08:50,161 - INFO - [SUCESSO] Card enviado para filial b9158bfb-5b40-4b0b-89db-ed8eed45a789
+2025-08-17 17:08:50,203 - INFO - Enviando card para filial ba416053-d4c3-4ed1-a233-e1a7e85e0b45 com 1 itens
+2025-08-17 17:08:50,584 - INFO - [SUCESSO] Card enviado para filial ba416053-d4c3-4ed1-a233-e1a7e85e0b45
+2025-08-17 17:08:50,632 - INFO - Enviando card para filial c129fe63-c1f4-440e-8c4a-ffc4b97746ee com 15 itens
+2025-08-17 17:08:51,060 - INFO - [SUCESSO] Card enviado para filial c129fe63-c1f4-440e-8c4a-ffc4b97746ee
+2025-08-17 17:08:51,112 - INFO - Enviando card para filial c1c4150c-74fb-481f-93ef-fe6ab7412830 com 7 itens
+2025-08-17 17:08:51,639 - INFO - [SUCESSO] Card enviado para filial c1c4150c-74fb-481f-93ef-fe6ab7412830
+2025-08-17 17:08:51,671 - INFO - Enviando card para filial c2108d54-021e-450f-aff2-dabd0f66dbce com 30 itens
+2025-08-17 17:08:52,240 - INFO - [SUCESSO] Card enviado para filial c2108d54-021e-450f-aff2-dabd0f66dbce
+2025-08-17 17:08:52,295 - INFO - Enviando card para filial c2108d54-021e-450f-aff2-dabd0f66dbce com 30 itens
+2025-08-17 17:08:52,817 - INFO - [SUCESSO] Card enviado para filial c2108d54-021e-450f-aff2-dabd0f66dbce
+2025-08-17 17:08:52,864 - INFO - Enviando card para filial c2108d54-021e-450f-aff2-dabd0f66dbce com 30 itens
+2025-08-17 17:08:53,999 - INFO - [SUCESSO] Card enviado para filial c2108d54-021e-450f-aff2-dabd0f66dbce
+2025-08-17 17:08:54,057 - INFO - Enviando card para filial c2108d54-021e-450f-aff2-dabd0f66dbce com 30 itens
+2025-08-17 17:08:54,639 - INFO - [SUCESSO] Card enviado para filial c2108d54-021e-450f-aff2-dabd0f66dbce
+2025-08-17 17:08:54,695 - INFO - Enviando card para filial c2108d54-021e-450f-aff2-dabd0f66dbce com 30 itens
+2025-08-17 17:08:55,933 - INFO - [SUCESSO] Card enviado para filial c2108d54-021e-450f-aff2-dabd0f66dbce
+2025-08-17 17:08:55,978 - INFO - Enviando card para filial c2108d54-021e-450f-aff2-dabd0f66dbce com 30 itens
+2025-08-17 17:08:56,452 - INFO - [SUCESSO] Card enviado para filial c2108d54-021e-450f-aff2-dabd0f66dbce
+2025-08-17 17:08:56,494 - INFO - Enviando card para filial c2108d54-021e-450f-aff2-dabd0f66dbce com 30 itens
+2025-08-17 17:08:56,987 - INFO - [SUCESSO] Card enviado para filial c2108d54-021e-450f-aff2-dabd0f66dbce
+2025-08-17 17:08:57,027 - INFO - Enviando card para filial c2108d54-021e-450f-aff2-dabd0f66dbce com 25 itens
+2025-08-17 17:08:57,640 - INFO - [SUCESSO] Card enviado para filial c2108d54-021e-450f-aff2-dabd0f66dbce
+2025-08-17 17:08:57,683 - INFO - Enviando card para filial c8b108ee-83e2-4902-b8eb-d65a2f093181 com 7 itens
+2025-08-17 17:08:58,084 - INFO - [SUCESSO] Card enviado para filial c8b108ee-83e2-4902-b8eb-d65a2f093181
+2025-08-17 17:08:58,140 - INFO - Enviando card para filial ca23aa6d-e8d1-41b7-86f8-e200fec458e6 com 30 itens
+2025-08-17 17:08:58,627 - INFO - [SUCESSO] Card enviado para filial ca23aa6d-e8d1-41b7-86f8-e200fec458e6
+2025-08-17 17:08:58,671 - INFO - Enviando card para filial ca23aa6d-e8d1-41b7-86f8-e200fec458e6 com 30 itens
+2025-08-17 17:09:00,020 - INFO - [SUCESSO] Card enviado para filial ca23aa6d-e8d1-41b7-86f8-e200fec458e6
+2025-08-17 17:09:00,069 - INFO - Enviando card para filial ca23aa6d-e8d1-41b7-86f8-e200fec458e6 com 27 itens
+2025-08-17 17:09:00,687 - INFO - [SUCESSO] Card enviado para filial ca23aa6d-e8d1-41b7-86f8-e200fec458e6
+2025-08-17 17:09:00,734 - INFO - Enviando card para filial cb197a3f-ce18-4bfd-80a9-8999000971e1 com 3 itens
+2025-08-17 17:09:01,270 - INFO - [SUCESSO] Card enviado para filial cb197a3f-ce18-4bfd-80a9-8999000971e1
+2025-08-17 17:09:01,316 - INFO - Enviando card para filial cefdb518-ba15-428f-8adb-62e2cc7c859e com 19 itens
+2025-08-17 17:09:02,454 - INFO - [SUCESSO] Card enviado para filial cefdb518-ba15-428f-8adb-62e2cc7c859e
+2025-08-17 17:09:02,502 - INFO - Enviando card para filial d03e925a-1660-437f-9996-f24b538eca39 com 10 itens
+2025-08-17 17:09:03,074 - INFO - [SUCESSO] Card enviado para filial d03e925a-1660-437f-9996-f24b538eca39
+2025-08-17 17:09:03,113 - INFO - Enviando card para filial d0ee153e-4086-4d8f-8021-4b1b76d354ab com 1 itens
+2025-08-17 17:09:04,054 - INFO - [SUCESSO] Card enviado para filial d0ee153e-4086-4d8f-8021-4b1b76d354ab
+2025-08-17 17:09:04,097 - INFO - Enviando card para filial d3d2fd53-0959-4c72-84c7-adad0e27fca5 com 30 itens
+2025-08-17 17:09:06,684 - INFO - [SUCESSO] Card enviado para filial d3d2fd53-0959-4c72-84c7-adad0e27fca5
+2025-08-17 17:09:06,756 - INFO - Enviando card para filial d3d2fd53-0959-4c72-84c7-adad0e27fca5 com 30 itens
+2025-08-17 17:09:07,337 - INFO - [SUCESSO] Card enviado para filial d3d2fd53-0959-4c72-84c7-adad0e27fca5
+2025-08-17 17:09:07,375 - INFO - Enviando card para filial d3d2fd53-0959-4c72-84c7-adad0e27fca5 com 30 itens
+2025-08-17 17:09:08,009 - INFO - [SUCESSO] Card enviado para filial d3d2fd53-0959-4c72-84c7-adad0e27fca5
+2025-08-17 17:09:08,071 - INFO - Enviando card para filial d3d2fd53-0959-4c72-84c7-adad0e27fca5 com 30 itens
+2025-08-17 17:09:08,656 - INFO - [SUCESSO] Card enviado para filial d3d2fd53-0959-4c72-84c7-adad0e27fca5
+2025-08-17 17:09:08,687 - INFO - Enviando card para filial d3d2fd53-0959-4c72-84c7-adad0e27fca5 com 30 itens
+2025-08-17 17:09:09,191 - INFO - [SUCESSO] Card enviado para filial d3d2fd53-0959-4c72-84c7-adad0e27fca5
+2025-08-17 17:09:09,218 - INFO - Enviando card para filial d3d2fd53-0959-4c72-84c7-adad0e27fca5 com 30 itens
+2025-08-17 17:09:09,711 - INFO - [SUCESSO] Card enviado para filial d3d2fd53-0959-4c72-84c7-adad0e27fca5
+2025-08-17 17:09:09,754 - INFO - Enviando card para filial d3d2fd53-0959-4c72-84c7-adad0e27fca5 com 25 itens
+2025-08-17 17:09:10,172 - INFO - [SUCESSO] Card enviado para filial d3d2fd53-0959-4c72-84c7-adad0e27fca5
+2025-08-17 17:09:10,216 - INFO - Enviando card para filial d4c6c7a3-e8b1-48f5-8772-a1e48bd22193 com 30 itens
+2025-08-17 17:09:10,831 - INFO - [SUCESSO] Card enviado para filial d4c6c7a3-e8b1-48f5-8772-a1e48bd22193
+2025-08-17 17:09:10,874 - INFO - Enviando card para filial d4c6c7a3-e8b1-48f5-8772-a1e48bd22193 com 30 itens
+2025-08-17 17:09:11,341 - INFO - [SUCESSO] Card enviado para filial d4c6c7a3-e8b1-48f5-8772-a1e48bd22193
+2025-08-17 17:09:11,408 - INFO - Enviando card para filial d4c6c7a3-e8b1-48f5-8772-a1e48bd22193 com 10 itens
+2025-08-17 17:09:32,456 - INFO - [SUCESSO] Card enviado para filial d4c6c7a3-e8b1-48f5-8772-a1e48bd22193
+2025-08-17 17:09:32,503 - INFO - Enviando card para filial d764db78-0672-43c3-b1b2-b095ca4bfebf com 7 itens
+2025-08-17 17:09:33,060 - INFO - [SUCESSO] Card enviado para filial d764db78-0672-43c3-b1b2-b095ca4bfebf
+2025-08-17 17:09:33,097 - INFO - Enviando card para filial e395bd64-f71a-41ce-9c8d-51f0616d7520 com 30 itens
+2025-08-17 17:09:33,721 - INFO - [SUCESSO] Card enviado para filial e395bd64-f71a-41ce-9c8d-51f0616d7520
+2025-08-17 17:09:33,765 - INFO - Enviando card para filial e395bd64-f71a-41ce-9c8d-51f0616d7520 com 30 itens
+2025-08-17 17:09:34,385 - INFO - [SUCESSO] Card enviado para filial e395bd64-f71a-41ce-9c8d-51f0616d7520
+2025-08-17 17:09:34,429 - INFO - Enviando card para filial e395bd64-f71a-41ce-9c8d-51f0616d7520 com 30 itens
+2025-08-17 17:09:35,595 - INFO - [SUCESSO] Card enviado para filial e395bd64-f71a-41ce-9c8d-51f0616d7520
+2025-08-17 17:09:35,647 - INFO - Enviando card para filial e395bd64-f71a-41ce-9c8d-51f0616d7520 com 30 itens
+2025-08-17 17:09:36,116 - INFO - [SUCESSO] Card enviado para filial e395bd64-f71a-41ce-9c8d-51f0616d7520
+2025-08-17 17:09:36,150 - INFO - Enviando card para filial e395bd64-f71a-41ce-9c8d-51f0616d7520 com 30 itens
+2025-08-17 17:09:36,664 - INFO - [SUCESSO] Card enviado para filial e395bd64-f71a-41ce-9c8d-51f0616d7520
+2025-08-17 17:09:36,726 - INFO - Enviando card para filial e395bd64-f71a-41ce-9c8d-51f0616d7520 com 30 itens
+2025-08-17 17:09:37,366 - INFO - [SUCESSO] Card enviado para filial e395bd64-f71a-41ce-9c8d-51f0616d7520
+2025-08-17 17:09:37,391 - INFO - Enviando card para filial e395bd64-f71a-41ce-9c8d-51f0616d7520 com 28 itens
+2025-08-17 17:09:37,846 - INFO - [SUCESSO] Card enviado para filial e395bd64-f71a-41ce-9c8d-51f0616d7520
+2025-08-17 17:09:37,887 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107109861160 com 9 itens
+2025-08-17 17:09:38,724 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107109861160
+2025-08-17 17:09:38,751 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107111015530 com 8 itens
+2025-08-17 17:09:39,324 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107111015530
+2025-08-17 17:09:39,375 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107112235450 com 9 itens
+2025-08-17 17:09:39,771 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107112235450
+2025-08-17 17:09:39,806 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107129164018 com 4 itens
+2025-08-17 17:09:40,341 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107129164018
+2025-08-17 17:09:40,369 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107154400410 com 3 itens
+2025-08-17 17:09:40,907 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107154400410
+2025-08-17 17:09:40,940 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107157081080 com 7 itens
+2025-08-17 17:09:41,504 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107157081080
+2025-08-17 17:09:41,538 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107180510100 com 8 itens
+2025-08-17 17:09:42,057 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107180510100
+2025-08-17 17:09:42,099 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107180850100 com 10 itens
+2025-08-17 17:09:42,508 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107180850100
+2025-08-17 17:09:42,552 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107181310100 com 11 itens
+2025-08-17 17:09:43,113 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107181310100
+2025-08-17 17:09:43,152 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107181460100 com 4 itens
+2025-08-17 17:09:43,547 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107181460100
+2025-08-17 17:09:43,579 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107183160100 com 8 itens
+2025-08-17 17:09:44,981 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107183160100
+2025-08-17 17:09:45,006 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107184010100 com 8 itens
+2025-08-17 17:09:45,406 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107184010100
+2025-08-17 17:09:45,432 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107186070100 com 6 itens
+2025-08-17 17:09:45,954 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107186070100
+2025-08-17 17:09:46,013 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107186980100 com 5 itens
+2025-08-17 17:09:46,379 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107186980100
+2025-08-17 17:09:46,407 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107187280100 com 5 itens
+2025-08-17 17:09:46,948 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107187280100
+2025-08-17 17:09:46,979 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107187410100 com 9 itens
+2025-08-17 17:09:47,514 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107187410100
+2025-08-17 17:09:47,526 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107188130100 com 4 itens
+2025-08-17 17:09:48,059 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107188130100
+2025-08-17 17:09:48,086 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107189010100 com 22 itens
+2025-08-17 17:09:48,743 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107189010100
+2025-08-17 17:09:48,779 - INFO - Enviando card para filial e5a177b2-dd9e-4f0f-95d8-6d4673b9a63b com 30 itens
+2025-08-17 17:09:49,270 - INFO - [SUCESSO] Card enviado para filial e5a177b2-dd9e-4f0f-95d8-6d4673b9a63b
+2025-08-17 17:09:49,317 - INFO - Enviando card para filial e5a177b2-dd9e-4f0f-95d8-6d4673b9a63b com 30 itens
+2025-08-17 17:09:49,889 - INFO - [SUCESSO] Card enviado para filial e5a177b2-dd9e-4f0f-95d8-6d4673b9a63b
+2025-08-17 17:09:49,912 - INFO - Enviando card para filial e5a177b2-dd9e-4f0f-95d8-6d4673b9a63b com 30 itens
+2025-08-17 17:09:50,393 - INFO - [SUCESSO] Card enviado para filial e5a177b2-dd9e-4f0f-95d8-6d4673b9a63b
+2025-08-17 17:09:50,421 - INFO - Enviando card para filial e5a177b2-dd9e-4f0f-95d8-6d4673b9a63b com 30 itens
+2025-08-17 17:09:50,907 - INFO - [SUCESSO] Card enviado para filial e5a177b2-dd9e-4f0f-95d8-6d4673b9a63b
+2025-08-17 17:09:50,939 - INFO - Enviando card para filial e5a177b2-dd9e-4f0f-95d8-6d4673b9a63b com 30 itens
+2025-08-17 17:09:51,568 - INFO - [SUCESSO] Card enviado para filial e5a177b2-dd9e-4f0f-95d8-6d4673b9a63b
+2025-08-17 17:09:51,606 - INFO - Enviando card para filial e5a177b2-dd9e-4f0f-95d8-6d4673b9a63b com 30 itens
+2025-08-17 17:09:52,093 - INFO - [SUCESSO] Card enviado para filial e5a177b2-dd9e-4f0f-95d8-6d4673b9a63b
+2025-08-17 17:09:52,126 - INFO - Enviando card para filial e5a177b2-dd9e-4f0f-95d8-6d4673b9a63b com 30 itens
+2025-08-17 17:09:52,624 - INFO - [SUCESSO] Card enviado para filial e5a177b2-dd9e-4f0f-95d8-6d4673b9a63b
+2025-08-17 17:09:52,662 - INFO - Enviando card para filial e5a177b2-dd9e-4f0f-95d8-6d4673b9a63b com 30 itens
+2025-08-17 17:09:53,098 - INFO - [SUCESSO] Card enviado para filial e5a177b2-dd9e-4f0f-95d8-6d4673b9a63b
+2025-08-17 17:09:53,131 - INFO - Enviando card para filial e5a177b2-dd9e-4f0f-95d8-6d4673b9a63b com 3 itens
+2025-08-17 17:09:53,675 - INFO - [SUCESSO] Card enviado para filial e5a177b2-dd9e-4f0f-95d8-6d4673b9a63b
+2025-08-17 17:09:53,723 - INFO - Enviando card para filial e676855f-7c8e-4c57-b8e5-fde5c35342bf com 11 itens
+2025-08-17 17:09:54,276 - INFO - [SUCESSO] Card enviado para filial e676855f-7c8e-4c57-b8e5-fde5c35342bf
+2025-08-17 17:09:54,319 - INFO - Enviando card para filial e7164c8f-cb6a-476c-a88e-f876573eb486 com 4 itens
+2025-08-17 17:09:54,845 - INFO - [SUCESSO] Card enviado para filial e7164c8f-cb6a-476c-a88e-f876573eb486
+2025-08-17 17:09:54,887 - INFO - Enviando card para filial ea86e08c-c044-402f-9aaf-e36c48dba2fb com 8 itens
+2025-08-17 17:09:55,471 - INFO - [SUCESSO] Card enviado para filial ea86e08c-c044-402f-9aaf-e36c48dba2fb
+2025-08-17 17:09:55,511 - INFO - Enviando card para filial f3b01b13-dac1-432a-87eb-bd903248ef68 com 5 itens
+2025-08-17 17:09:56,054 - INFO - [SUCESSO] Card enviado para filial f3b01b13-dac1-432a-87eb-bd903248ef68
+2025-08-17 17:09:56,087 - INFO - Enviando card para filial f3d986f7-ca30-4cb3-bf37-82d33aaa287a com 17 itens
+2025-08-17 17:09:56,707 - INFO - [SUCESSO] Card enviado para filial f3d986f7-ca30-4cb3-bf37-82d33aaa287a
+2025-08-17 17:09:56,753 - INFO - Enviando card para filial f5805453-8d9f-486b-a1c6-376a3928e64d com 25 itens
+2025-08-17 17:09:57,242 - INFO - [SUCESSO] Card enviado para filial f5805453-8d9f-486b-a1c6-376a3928e64d
+2025-08-17 17:09:57,289 - INFO - Enviando card para filial f5e059ef-7890-478b-b19c-aeb71ee975b0 com 30 itens
+2025-08-17 17:09:57,696 - INFO - [SUCESSO] Card enviado para filial f5e059ef-7890-478b-b19c-aeb71ee975b0
+2025-08-17 17:09:57,748 - INFO - Enviando card para filial f5e059ef-7890-478b-b19c-aeb71ee975b0 com 30 itens
+2025-08-17 17:09:58,372 - INFO - [SUCESSO] Card enviado para filial f5e059ef-7890-478b-b19c-aeb71ee975b0
+2025-08-17 17:09:58,427 - INFO - Enviando card para filial f5e059ef-7890-478b-b19c-aeb71ee975b0 com 30 itens
+2025-08-17 17:09:58,900 - INFO - [SUCESSO] Card enviado para filial f5e059ef-7890-478b-b19c-aeb71ee975b0
+2025-08-17 17:09:58,967 - INFO - Enviando card para filial f5e059ef-7890-478b-b19c-aeb71ee975b0 com 30 itens
+2025-08-17 17:09:59,407 - INFO - [SUCESSO] Card enviado para filial f5e059ef-7890-478b-b19c-aeb71ee975b0
+2025-08-17 17:09:59,463 - INFO - Enviando card para filial f5e059ef-7890-478b-b19c-aeb71ee975b0 com 30 itens
+2025-08-17 17:09:59,942 - INFO - [SUCESSO] Card enviado para filial f5e059ef-7890-478b-b19c-aeb71ee975b0
+2025-08-17 17:09:59,991 - INFO - Enviando card para filial f5e059ef-7890-478b-b19c-aeb71ee975b0 com 30 itens
+2025-08-17 17:10:00,770 - INFO - [SUCESSO] Card enviado para filial f5e059ef-7890-478b-b19c-aeb71ee975b0
+2025-08-17 17:10:00,818 - INFO - Enviando card para filial f5e059ef-7890-478b-b19c-aeb71ee975b0 com 30 itens
+2025-08-17 17:10:01,744 - INFO - [SUCESSO] Card enviado para filial f5e059ef-7890-478b-b19c-aeb71ee975b0
+2025-08-17 17:10:01,818 - INFO - Enviando card para filial f5e059ef-7890-478b-b19c-aeb71ee975b0 com 30 itens
+2025-08-17 17:10:02,236 - INFO - [SUCESSO] Card enviado para filial f5e059ef-7890-478b-b19c-aeb71ee975b0
+2025-08-17 17:10:02,293 - INFO - Enviando card para filial f5e059ef-7890-478b-b19c-aeb71ee975b0 com 6 itens
+2025-08-17 17:10:02,787 - INFO - [SUCESSO] Card enviado para filial f5e059ef-7890-478b-b19c-aeb71ee975b0
+2025-08-17 17:10:02,850 - INFO - Enviando card para filial f7e2a4ed-aa04-4806-8bd6-3e4df5ee1bfa com 30 itens
+2025-08-17 17:10:03,406 - INFO - [SUCESSO] Card enviado para filial f7e2a4ed-aa04-4806-8bd6-3e4df5ee1bfa
+2025-08-17 17:10:03,456 - INFO - Enviando card para filial f7e2a4ed-aa04-4806-8bd6-3e4df5ee1bfa com 28 itens
+2025-08-17 17:10:04,002 - INFO - [SUCESSO] Card enviado para filial f7e2a4ed-aa04-4806-8bd6-3e4df5ee1bfa
+2025-08-17 17:10:04,034 - INFO - Enviando card para filial fbd1ee07-ac92-4555-a8dc-6e28a7267aec com 6 itens
+2025-08-17 17:10:04,440 - INFO - [SUCESSO] Card enviado para filial fbd1ee07-ac92-4555-a8dc-6e28a7267aec
+2025-08-17 17:10:04,477 - INFO - Enviando card para filial fc122c33-5914-4c07-ac76-d707f105d18c com 5 itens
+2025-08-17 17:10:05,034 - INFO - [SUCESSO] Card enviado para filial fc122c33-5914-4c07-ac76-d707f105d18c
+2025-08-17 17:10:05,070 - INFO - Enviando card para filial fd214ee3-b4b4-4bbd-b78c-fabb62122048 com 1 itens
+2025-08-17 17:10:05,535 - INFO - [SUCESSO] Card enviado para filial fd214ee3-b4b4-4bbd-b78c-fabb62122048
+2025-08-17 17:10:05,558 - INFO - Enviando card para filial fe46de7e-1842-4a8a-b317-216d2406ad2e com 30 itens
+2025-08-17 17:10:06,200 - INFO - [SUCESSO] Card enviado para filial fe46de7e-1842-4a8a-b317-216d2406ad2e
+2025-08-17 17:10:06,235 - INFO - Enviando card para filial fe46de7e-1842-4a8a-b317-216d2406ad2e com 6 itens
+2025-08-17 17:10:06,619 - INFO - [SUCESSO] Card enviado para filial fe46de7e-1842-4a8a-b317-216d2406ad2e
+2025-08-17 17:10:06,648 - INFO - Enviando card para filial 116f058e-c63e-46f7-970a-b30b2f053687 com 10 itens
+2025-08-17 17:10:07,207 - INFO - [SUCESSO] Card enviado para filial 116f058e-c63e-46f7-970a-b30b2f053687
+2025-08-17 17:10:07,243 - INFO - Enviando card para filial 193312c6-d6d9-403c-9749-c2073b242bdc com 26 itens
+2025-08-17 17:10:07,857 - INFO - [SUCESSO] Card enviado para filial 193312c6-d6d9-403c-9749-c2073b242bdc
+2025-08-17 17:10:07,887 - INFO - Enviando card para filial 2ba372aa-5854-45e5-80d5-cb45469cae78 com 10 itens
+2025-08-17 17:10:08,340 - INFO - [SUCESSO] Card enviado para filial 2ba372aa-5854-45e5-80d5-cb45469cae78
+2025-08-17 17:10:08,368 - INFO - Enviando card para filial 2be12bba-e8fb-4780-8c07-8bb17620a2ae com 25 itens
+2025-08-17 17:10:08,815 - INFO - [SUCESSO] Card enviado para filial 2be12bba-e8fb-4780-8c07-8bb17620a2ae
+2025-08-17 17:10:08,851 - INFO - Enviando card para filial 47e38b54-20d2-4c96-8d08-20a1b53e6952 com 30 itens
+2025-08-17 17:10:09,557 - INFO - [SUCESSO] Card enviado para filial 47e38b54-20d2-4c96-8d08-20a1b53e6952
+2025-08-17 17:10:09,594 - INFO - Enviando card para filial 47e38b54-20d2-4c96-8d08-20a1b53e6952 com 15 itens
+2025-08-17 17:10:10,086 - INFO - [SUCESSO] Card enviado para filial 47e38b54-20d2-4c96-8d08-20a1b53e6952
+2025-08-17 17:10:10,118 - INFO - Enviando card para filial 48271ae5-bb0e-471a-a5de-23ba3d42fecd com 18 itens
+2025-08-17 17:10:10,606 - INFO - [SUCESSO] Card enviado para filial 48271ae5-bb0e-471a-a5de-23ba3d42fecd
+2025-08-17 17:10:10,660 - INFO - Enviando card para filial 51ef4367-be7e-408a-a655-fad1934e7e1f com 22 itens
+2025-08-17 17:10:11,283 - INFO - [SUCESSO] Card enviado para filial 51ef4367-be7e-408a-a655-fad1934e7e1f
+2025-08-17 17:10:11,329 - INFO - Enviando card para filial 5bbfecc8-d2ea-4878-831b-3a506ee5f894 com 30 itens
+2025-08-17 17:10:11,773 - INFO - [SUCESSO] Card enviado para filial 5bbfecc8-d2ea-4878-831b-3a506ee5f894
+2025-08-17 17:10:11,808 - INFO - Enviando card para filial 5bbfecc8-d2ea-4878-831b-3a506ee5f894 com 30 itens
+2025-08-17 17:10:13,126 - INFO - [SUCESSO] Card enviado para filial 5bbfecc8-d2ea-4878-831b-3a506ee5f894
+2025-08-17 17:10:13,156 - INFO - Enviando card para filial 5bbfecc8-d2ea-4878-831b-3a506ee5f894 com 30 itens
+2025-08-17 17:10:14,039 - INFO - [SUCESSO] Card enviado para filial 5bbfecc8-d2ea-4878-831b-3a506ee5f894
+2025-08-17 17:10:14,077 - INFO - Enviando card para filial 5bbfecc8-d2ea-4878-831b-3a506ee5f894 com 30 itens
+2025-08-17 17:10:14,706 - INFO - [SUCESSO] Card enviado para filial 5bbfecc8-d2ea-4878-831b-3a506ee5f894
+2025-08-17 17:10:14,741 - INFO - Enviando card para filial 5bbfecc8-d2ea-4878-831b-3a506ee5f894 com 30 itens
+2025-08-17 17:10:16,121 - INFO - [SUCESSO] Card enviado para filial 5bbfecc8-d2ea-4878-831b-3a506ee5f894
+2025-08-17 17:10:16,155 - INFO - Enviando card para filial 5bbfecc8-d2ea-4878-831b-3a506ee5f894 com 30 itens
+2025-08-17 17:10:16,640 - INFO - [SUCESSO] Card enviado para filial 5bbfecc8-d2ea-4878-831b-3a506ee5f894
+2025-08-17 17:10:16,679 - INFO - Enviando card para filial 5bbfecc8-d2ea-4878-831b-3a506ee5f894 com 30 itens
+2025-08-17 17:10:17,541 - INFO - [SUCESSO] Card enviado para filial 5bbfecc8-d2ea-4878-831b-3a506ee5f894
+2025-08-17 17:10:17,572 - INFO - Enviando card para filial 5bbfecc8-d2ea-4878-831b-3a506ee5f894 com 30 itens
+2025-08-17 17:10:18,042 - INFO - [SUCESSO] Card enviado para filial 5bbfecc8-d2ea-4878-831b-3a506ee5f894
+2025-08-17 17:10:18,076 - INFO - Enviando card para filial 5bbfecc8-d2ea-4878-831b-3a506ee5f894 com 13 itens
+2025-08-17 17:10:18,619 - INFO - [SUCESSO] Card enviado para filial 5bbfecc8-d2ea-4878-831b-3a506ee5f894
+2025-08-17 17:10:18,663 - INFO - Enviando card para filial 6405a0eb-afca-4819-9cb5-1212be52513f com 30 itens
+2025-08-17 17:10:19,560 - INFO - [SUCESSO] Card enviado para filial 6405a0eb-afca-4819-9cb5-1212be52513f
+2025-08-17 17:10:19,601 - INFO - Enviando card para filial 6405a0eb-afca-4819-9cb5-1212be52513f com 6 itens
+2025-08-17 17:10:19,959 - INFO - [SUCESSO] Card enviado para filial 6405a0eb-afca-4819-9cb5-1212be52513f
+2025-08-17 17:10:19,996 - INFO - Enviando card para filial 72631afe-9fbb-4e20-88af-a55936a168b4 com 30 itens
+2025-08-17 17:10:20,596 - INFO - [SUCESSO] Card enviado para filial 72631afe-9fbb-4e20-88af-a55936a168b4
+2025-08-17 17:10:20,623 - INFO - Enviando card para filial 72631afe-9fbb-4e20-88af-a55936a168b4 com 5 itens
+2025-08-17 17:10:21,213 - INFO - [SUCESSO] Card enviado para filial 72631afe-9fbb-4e20-88af-a55936a168b4
+2025-08-17 17:10:21,238 - INFO - Enviando card para filial 76d08c70-e4bb-45a6-8cd8-00885c19eca8 com 9 itens
+2025-08-17 17:10:21,666 - INFO - [SUCESSO] Card enviado para filial 76d08c70-e4bb-45a6-8cd8-00885c19eca8
+2025-08-17 17:10:21,706 - INFO - Enviando card para filial 79a05179-222c-4dfc-929a-2f4ed72a54ea com 8 itens
+2025-08-17 17:10:22,135 - INFO - [SUCESSO] Card enviado para filial 79a05179-222c-4dfc-929a-2f4ed72a54ea
+2025-08-17 17:10:22,173 - INFO - Enviando card para filial 8e9cd138-a986-46d9-98a1-5e825977cef7 com 25 itens
+2025-08-17 17:10:22,609 - INFO - [SUCESSO] Card enviado para filial 8e9cd138-a986-46d9-98a1-5e825977cef7
+2025-08-17 17:10:22,641 - INFO - Enviando card para filial a01ec5e4-df66-4be5-b2e3-a0ca93f638bb com 30 itens
+2025-08-17 17:10:23,081 - INFO - [SUCESSO] Card enviado para filial a01ec5e4-df66-4be5-b2e3-a0ca93f638bb
+2025-08-17 17:10:23,121 - INFO - Enviando card para filial a01ec5e4-df66-4be5-b2e3-a0ca93f638bb com 30 itens
+2025-08-17 17:10:23,615 - INFO - [SUCESSO] Card enviado para filial a01ec5e4-df66-4be5-b2e3-a0ca93f638bb
+2025-08-17 17:10:23,654 - INFO - Enviando card para filial a01ec5e4-df66-4be5-b2e3-a0ca93f638bb com 30 itens
+2025-08-17 17:10:24,194 - INFO - [SUCESSO] Card enviado para filial a01ec5e4-df66-4be5-b2e3-a0ca93f638bb
+2025-08-17 17:10:24,223 - INFO - Enviando card para filial a01ec5e4-df66-4be5-b2e3-a0ca93f638bb com 30 itens
+2025-08-17 17:10:24,709 - INFO - [SUCESSO] Card enviado para filial a01ec5e4-df66-4be5-b2e3-a0ca93f638bb
+2025-08-17 17:10:24,749 - INFO - Enviando card para filial a01ec5e4-df66-4be5-b2e3-a0ca93f638bb com 30 itens
+2025-08-17 17:10:25,278 - INFO - [SUCESSO] Card enviado para filial a01ec5e4-df66-4be5-b2e3-a0ca93f638bb
+2025-08-17 17:10:25,311 - INFO - Enviando card para filial a01ec5e4-df66-4be5-b2e3-a0ca93f638bb com 30 itens
+2025-08-17 17:10:25,935 - INFO - [SUCESSO] Card enviado para filial a01ec5e4-df66-4be5-b2e3-a0ca93f638bb
+2025-08-17 17:10:25,983 - INFO - Enviando card para filial a01ec5e4-df66-4be5-b2e3-a0ca93f638bb com 30 itens
+2025-08-17 17:10:26,572 - INFO - [SUCESSO] Card enviado para filial a01ec5e4-df66-4be5-b2e3-a0ca93f638bb
+2025-08-17 17:10:26,598 - INFO - Enviando card para filial a01ec5e4-df66-4be5-b2e3-a0ca93f638bb com 20 itens
+2025-08-17 17:10:28,107 - INFO - [SUCESSO] Card enviado para filial a01ec5e4-df66-4be5-b2e3-a0ca93f638bb
+2025-08-17 17:10:28,130 - INFO - Enviando card para filial ba416053-d4c3-4ed1-a233-e1a7e85e0b45 com 21 itens
+2025-08-17 17:10:28,607 - INFO - [SUCESSO] Card enviado para filial ba416053-d4c3-4ed1-a233-e1a7e85e0b45
+2025-08-17 17:10:28,650 - INFO - Enviando card para filial cefdb518-ba15-428f-8adb-62e2cc7c859e com 17 itens
+2025-08-17 17:10:29,977 - INFO - [SUCESSO] Card enviado para filial cefdb518-ba15-428f-8adb-62e2cc7c859e
+2025-08-17 17:10:30,010 - INFO - Enviando card para filial d4c6c7a3-e8b1-48f5-8772-a1e48bd22193 com 30 itens
+2025-08-17 17:10:30,641 - INFO - [SUCESSO] Card enviado para filial d4c6c7a3-e8b1-48f5-8772-a1e48bd22193
+2025-08-17 17:10:30,670 - INFO - Enviando card para filial d4c6c7a3-e8b1-48f5-8772-a1e48bd22193 com 30 itens
+2025-08-17 17:10:31,197 - INFO - [SUCESSO] Card enviado para filial d4c6c7a3-e8b1-48f5-8772-a1e48bd22193
+2025-08-17 17:10:31,224 - INFO - Enviando card para filial d4c6c7a3-e8b1-48f5-8772-a1e48bd22193 com 30 itens
+2025-08-17 17:10:32,551 - INFO - [SUCESSO] Card enviado para filial d4c6c7a3-e8b1-48f5-8772-a1e48bd22193
+2025-08-17 17:10:32,574 - INFO - Enviando card para filial d4c6c7a3-e8b1-48f5-8772-a1e48bd22193 com 30 itens
+2025-08-17 17:10:33,190 - INFO - [SUCESSO] Card enviado para filial d4c6c7a3-e8b1-48f5-8772-a1e48bd22193
+2025-08-17 17:10:33,214 - INFO - Enviando card para filial d4c6c7a3-e8b1-48f5-8772-a1e48bd22193 com 30 itens
+2025-08-17 17:10:33,681 - INFO - [SUCESSO] Card enviado para filial d4c6c7a3-e8b1-48f5-8772-a1e48bd22193
+2025-08-17 17:10:33,715 - INFO - Enviando card para filial d4c6c7a3-e8b1-48f5-8772-a1e48bd22193 com 30 itens
+2025-08-17 17:10:34,981 - INFO - [SUCESSO] Card enviado para filial d4c6c7a3-e8b1-48f5-8772-a1e48bd22193
+2025-08-17 17:10:35,012 - INFO - Enviando card para filial d4c6c7a3-e8b1-48f5-8772-a1e48bd22193 com 30 itens
+2025-08-17 17:10:35,517 - INFO - [SUCESSO] Card enviado para filial d4c6c7a3-e8b1-48f5-8772-a1e48bd22193
+2025-08-17 17:10:35,558 - INFO - Enviando card para filial d4c6c7a3-e8b1-48f5-8772-a1e48bd22193 com 30 itens
+2025-08-17 17:10:36,553 - INFO - [SUCESSO] Card enviado para filial d4c6c7a3-e8b1-48f5-8772-a1e48bd22193
+2025-08-17 17:10:36,587 - INFO - Enviando card para filial d4c6c7a3-e8b1-48f5-8772-a1e48bd22193 com 23 itens
+2025-08-17 17:10:39,112 - INFO - [SUCESSO] Card enviado para filial d4c6c7a3-e8b1-48f5-8772-a1e48bd22193
+2025-08-17 17:10:39,167 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107154400410 com 28 itens
+2025-08-17 17:10:39,794 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107154400410
+2025-08-17 17:10:39,832 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107157081080 com 30 itens
+2025-08-17 17:10:40,987 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107157081080
+2025-08-17 17:10:41,026 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107157081080 com 16 itens
+2025-08-17 17:10:41,907 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107157081080
+2025-08-17 17:10:41,945 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107184010100 com 30 itens
+2025-08-17 17:10:42,406 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107184010100
+2025-08-17 17:10:42,448 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107184010100 com 26 itens
+2025-08-17 17:10:43,184 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107184010100
+2025-08-17 17:10:43,217 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107186070100 com 30 itens
+2025-08-17 17:10:44,482 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107186070100
+2025-08-17 17:10:44,519 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107186070100 com 10 itens
+2025-08-17 17:10:45,123 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107186070100
+2025-08-17 17:10:45,160 - INFO - Enviando card para filial e7164c8f-cb6a-476c-a88e-f876573eb486 com 30 itens
+2025-08-17 17:10:45,632 - INFO - [SUCESSO] Card enviado para filial e7164c8f-cb6a-476c-a88e-f876573eb486
+2025-08-17 17:10:45,670 - INFO - Enviando card para filial e7164c8f-cb6a-476c-a88e-f876573eb486 com 9 itens
+2025-08-17 17:10:46,207 - INFO - [SUCESSO] Card enviado para filial e7164c8f-cb6a-476c-a88e-f876573eb486
+2025-08-17 17:10:46,239 - INFO - Enviando card para filial ea86e08c-c044-402f-9aaf-e36c48dba2fb com 30 itens
+2025-08-17 17:10:46,879 - INFO - [SUCESSO] Card enviado para filial ea86e08c-c044-402f-9aaf-e36c48dba2fb
+2025-08-17 17:10:46,919 - INFO - Enviando card para filial ea86e08c-c044-402f-9aaf-e36c48dba2fb com 30 itens
+2025-08-17 17:10:47,520 - INFO - [SUCESSO] Card enviado para filial ea86e08c-c044-402f-9aaf-e36c48dba2fb
+2025-08-17 17:10:47,533 - INFO - Enviando card para filial ea86e08c-c044-402f-9aaf-e36c48dba2fb com 6 itens
+2025-08-17 17:10:47,993 - INFO - [SUCESSO] Card enviado para filial ea86e08c-c044-402f-9aaf-e36c48dba2fb
+2025-08-17 17:10:48,030 - INFO - Enviando card para filial f7e2a4ed-aa04-4806-8bd6-3e4df5ee1bfa com 30 itens
+2025-08-17 17:10:48,491 - INFO - [SUCESSO] Card enviado para filial f7e2a4ed-aa04-4806-8bd6-3e4df5ee1bfa
+2025-08-17 17:10:48,519 - INFO - Enviando card para filial f7e2a4ed-aa04-4806-8bd6-3e4df5ee1bfa com 30 itens
+2025-08-17 17:10:49,020 - INFO - [SUCESSO] Card enviado para filial f7e2a4ed-aa04-4806-8bd6-3e4df5ee1bfa
+2025-08-17 17:10:49,069 - INFO - Enviando card para filial f7e2a4ed-aa04-4806-8bd6-3e4df5ee1bfa com 30 itens
+2025-08-17 17:10:49,639 - INFO - [SUCESSO] Card enviado para filial f7e2a4ed-aa04-4806-8bd6-3e4df5ee1bfa
+2025-08-17 17:10:49,679 - INFO - Enviando card para filial f7e2a4ed-aa04-4806-8bd6-3e4df5ee1bfa com 30 itens
+2025-08-17 17:10:50,986 - INFO - [SUCESSO] Card enviado para filial f7e2a4ed-aa04-4806-8bd6-3e4df5ee1bfa
+2025-08-17 17:10:51,027 - INFO - Enviando card para filial f7e2a4ed-aa04-4806-8bd6-3e4df5ee1bfa com 30 itens
+2025-08-17 17:10:51,683 - INFO - [SUCESSO] Card enviado para filial f7e2a4ed-aa04-4806-8bd6-3e4df5ee1bfa
+2025-08-17 17:10:51,727 - INFO - Enviando card para filial f7e2a4ed-aa04-4806-8bd6-3e4df5ee1bfa com 30 itens
+2025-08-17 17:10:52,215 - INFO - [SUCESSO] Card enviado para filial f7e2a4ed-aa04-4806-8bd6-3e4df5ee1bfa
+2025-08-17 17:10:52,240 - INFO - Enviando card para filial f7e2a4ed-aa04-4806-8bd6-3e4df5ee1bfa com 24 itens
+2025-08-17 17:10:52,714 - INFO - [SUCESSO] Card enviado para filial f7e2a4ed-aa04-4806-8bd6-3e4df5ee1bfa
+2025-08-17 17:10:52,746 - INFO - Enviando card para filial fbd1ee07-ac92-4555-a8dc-6e28a7267aec com 30 itens
+2025-08-17 17:10:53,439 - INFO - [SUCESSO] Card enviado para filial fbd1ee07-ac92-4555-a8dc-6e28a7267aec
+2025-08-17 17:10:53,490 - INFO - Enviando card para filial fbd1ee07-ac92-4555-a8dc-6e28a7267aec com 28 itens
+2025-08-17 17:10:54,030 - INFO - [SUCESSO] Card enviado para filial fbd1ee07-ac92-4555-a8dc-6e28a7267aec
+2025-08-17 17:10:54,070 - INFO - Enviando card para filial 0940042a-a07c-4c1f-83f1-8dc9c9581fa4 com 30 itens
+2025-08-17 17:10:54,823 - INFO - [SUCESSO] Card enviado para filial 0940042a-a07c-4c1f-83f1-8dc9c9581fa4
+2025-08-17 17:10:54,868 - INFO - Enviando card para filial 0940042a-a07c-4c1f-83f1-8dc9c9581fa4 com 30 itens
+2025-08-17 17:10:55,457 - INFO - [SUCESSO] Card enviado para filial 0940042a-a07c-4c1f-83f1-8dc9c9581fa4
+2025-08-17 17:10:55,492 - INFO - Enviando card para filial 0940042a-a07c-4c1f-83f1-8dc9c9581fa4 com 2 itens
+2025-08-17 17:10:55,901 - INFO - [SUCESSO] Card enviado para filial 0940042a-a07c-4c1f-83f1-8dc9c9581fa4
+2025-08-17 17:10:55,937 - INFO - Enviando card para filial 0e6ed110-bd40-42fd-8137-5f340d5eb065 com 30 itens
+2025-08-17 17:10:57,492 - INFO - [SUCESSO] Card enviado para filial 0e6ed110-bd40-42fd-8137-5f340d5eb065
+2025-08-17 17:10:57,563 - INFO - Enviando card para filial 0e6ed110-bd40-42fd-8137-5f340d5eb065 com 7 itens
+2025-08-17 17:10:57,980 - INFO - [SUCESSO] Card enviado para filial 0e6ed110-bd40-42fd-8137-5f340d5eb065
+2025-08-17 17:10:58,014 - INFO - Enviando card para filial 116f058e-c63e-46f7-970a-b30b2f053687 com 18 itens
+2025-08-17 17:10:58,450 - INFO - [SUCESSO] Card enviado para filial 116f058e-c63e-46f7-970a-b30b2f053687
+2025-08-17 17:10:58,483 - INFO - Enviando card para filial 11b04f8f-0797-4829-aa57-6599fdd13a3f com 21 itens
+2025-08-17 17:10:59,101 - INFO - [SUCESSO] Card enviado para filial 11b04f8f-0797-4829-aa57-6599fdd13a3f
+2025-08-17 17:10:59,136 - INFO - Enviando card para filial 12af3122-8454-42e5-a349-fec98a7a8a33 com 30 itens
+2025-08-17 17:10:59,638 - INFO - [SUCESSO] Card enviado para filial 12af3122-8454-42e5-a349-fec98a7a8a33
+2025-08-17 17:10:59,680 - INFO - Enviando card para filial 12af3122-8454-42e5-a349-fec98a7a8a33 com 5 itens
+2025-08-17 17:11:00,053 - INFO - [SUCESSO] Card enviado para filial 12af3122-8454-42e5-a349-fec98a7a8a33
+2025-08-17 17:11:00,093 - INFO - Enviando card para filial 16ed56e7-e35e-4afb-b013-efa4c9f390ec com 30 itens
+2025-08-17 17:11:00,615 - INFO - [SUCESSO] Card enviado para filial 16ed56e7-e35e-4afb-b013-efa4c9f390ec
+2025-08-17 17:11:00,658 - INFO - Enviando card para filial 16ed56e7-e35e-4afb-b013-efa4c9f390ec com 30 itens
+2025-08-17 17:11:01,143 - INFO - [SUCESSO] Card enviado para filial 16ed56e7-e35e-4afb-b013-efa4c9f390ec
+2025-08-17 17:11:01,174 - INFO - Enviando card para filial 16ed56e7-e35e-4afb-b013-efa4c9f390ec com 12 itens
+2025-08-17 17:11:01,777 - INFO - [SUCESSO] Card enviado para filial 16ed56e7-e35e-4afb-b013-efa4c9f390ec
+2025-08-17 17:11:01,824 - INFO - Enviando card para filial 193312c6-d6d9-403c-9749-c2073b242bdc com 25 itens
+2025-08-17 17:11:02,698 - INFO - [SUCESSO] Card enviado para filial 193312c6-d6d9-403c-9749-c2073b242bdc
+2025-08-17 17:11:02,743 - INFO - Enviando card para filial 1c0dc73d-075c-4263-bd27-5d0a378e5ff8 com 30 itens
+2025-08-17 17:11:03,389 - INFO - [SUCESSO] Card enviado para filial 1c0dc73d-075c-4263-bd27-5d0a378e5ff8
+2025-08-17 17:11:03,455 - INFO - Enviando card para filial 1c0dc73d-075c-4263-bd27-5d0a378e5ff8 com 30 itens
+2025-08-17 17:11:03,898 - INFO - [SUCESSO] Card enviado para filial 1c0dc73d-075c-4263-bd27-5d0a378e5ff8
+2025-08-17 17:11:03,954 - INFO - Enviando card para filial 1c0dc73d-075c-4263-bd27-5d0a378e5ff8 com 30 itens
+2025-08-17 17:11:04,416 - INFO - [SUCESSO] Card enviado para filial 1c0dc73d-075c-4263-bd27-5d0a378e5ff8
+2025-08-17 17:11:04,455 - INFO - Enviando card para filial 1c0dc73d-075c-4263-bd27-5d0a378e5ff8 com 30 itens
+2025-08-17 17:11:05,058 - INFO - [SUCESSO] Card enviado para filial 1c0dc73d-075c-4263-bd27-5d0a378e5ff8
+2025-08-17 17:11:05,112 - INFO - Enviando card para filial 1c0dc73d-075c-4263-bd27-5d0a378e5ff8 com 30 itens
+2025-08-17 17:11:05,741 - INFO - [SUCESSO] Card enviado para filial 1c0dc73d-075c-4263-bd27-5d0a378e5ff8
+2025-08-17 17:11:05,779 - INFO - Enviando card para filial 1c0dc73d-075c-4263-bd27-5d0a378e5ff8 com 30 itens
+2025-08-17 17:11:06,212 - INFO - [SUCESSO] Card enviado para filial 1c0dc73d-075c-4263-bd27-5d0a378e5ff8
+2025-08-17 17:11:06,256 - INFO - Enviando card para filial 1c0dc73d-075c-4263-bd27-5d0a378e5ff8 com 14 itens
+2025-08-17 17:11:06,707 - INFO - [SUCESSO] Card enviado para filial 1c0dc73d-075c-4263-bd27-5d0a378e5ff8
+2025-08-17 17:11:06,750 - INFO - Enviando card para filial 1e67b6f1-bb80-47c1-ac38-1d8943cde328 com 30 itens
+2025-08-17 17:11:07,337 - INFO - [SUCESSO] Card enviado para filial 1e67b6f1-bb80-47c1-ac38-1d8943cde328
+2025-08-17 17:11:07,374 - INFO - Enviando card para filial 1e67b6f1-bb80-47c1-ac38-1d8943cde328 com 30 itens
+2025-08-17 17:11:07,837 - INFO - [SUCESSO] Card enviado para filial 1e67b6f1-bb80-47c1-ac38-1d8943cde328
+2025-08-17 17:11:07,882 - INFO - Enviando card para filial 1e67b6f1-bb80-47c1-ac38-1d8943cde328 com 30 itens
+2025-08-17 17:11:08,532 - INFO - [SUCESSO] Card enviado para filial 1e67b6f1-bb80-47c1-ac38-1d8943cde328
+2025-08-17 17:11:08,575 - INFO - Enviando card para filial 1f7c9d80-8c0c-44a3-ac51-75f1f39fee9c com 30 itens
+2025-08-17 17:11:09,191 - INFO - [SUCESSO] Card enviado para filial 1f7c9d80-8c0c-44a3-ac51-75f1f39fee9c
+2025-08-17 17:11:09,227 - INFO - Enviando card para filial 1f7c9d80-8c0c-44a3-ac51-75f1f39fee9c com 14 itens
+2025-08-17 17:11:10,122 - INFO - [SUCESSO] Card enviado para filial 1f7c9d80-8c0c-44a3-ac51-75f1f39fee9c
+2025-08-17 17:11:10,168 - INFO - Enviando card para filial 20b110f6-1d6f-41b9-a2b3-e591607d2b7c com 30 itens
+2025-08-17 17:11:11,784 - INFO - [SUCESSO] Card enviado para filial 20b110f6-1d6f-41b9-a2b3-e591607d2b7c
+2025-08-17 17:11:11,848 - INFO - Enviando card para filial 20b110f6-1d6f-41b9-a2b3-e591607d2b7c com 20 itens
+2025-08-17 17:11:12,258 - INFO - [SUCESSO] Card enviado para filial 20b110f6-1d6f-41b9-a2b3-e591607d2b7c
+2025-08-17 17:11:12,310 - INFO - Enviando card para filial 227b263a-82d3-487b-a5e8-d85a282e483f com 27 itens
+2025-08-17 17:11:13,633 - INFO - [SUCESSO] Card enviado para filial 227b263a-82d3-487b-a5e8-d85a282e483f
+2025-08-17 17:11:13,676 - INFO - Enviando card para filial 22bd8a16-7c91-4219-ad7e-4dc169d701f3 com 30 itens
+2025-08-17 17:11:15,134 - INFO - [SUCESSO] Card enviado para filial 22bd8a16-7c91-4219-ad7e-4dc169d701f3
+2025-08-17 17:11:15,177 - INFO - Enviando card para filial 22bd8a16-7c91-4219-ad7e-4dc169d701f3 com 30 itens
+2025-08-17 17:11:15,732 - INFO - [SUCESSO] Card enviado para filial 22bd8a16-7c91-4219-ad7e-4dc169d701f3
+2025-08-17 17:11:15,776 - INFO - Enviando card para filial 22bd8a16-7c91-4219-ad7e-4dc169d701f3 com 19 itens
+2025-08-17 17:11:16,319 - INFO - [SUCESSO] Card enviado para filial 22bd8a16-7c91-4219-ad7e-4dc169d701f3
+2025-08-17 17:11:16,363 - INFO - Enviando card para filial 260e0f2e-d3a0-49e1-994f-d8f679e42758 com 30 itens
+2025-08-17 17:11:16,827 - INFO - [SUCESSO] Card enviado para filial 260e0f2e-d3a0-49e1-994f-d8f679e42758
+2025-08-17 17:11:16,858 - INFO - Enviando card para filial 260e0f2e-d3a0-49e1-994f-d8f679e42758 com 20 itens
+2025-08-17 17:11:17,297 - INFO - [SUCESSO] Card enviado para filial 260e0f2e-d3a0-49e1-994f-d8f679e42758
+2025-08-17 17:11:17,326 - INFO - Enviando card para filial 297efd59-93fb-4768-a48f-d68c700cc7af com 30 itens
+2025-08-17 17:11:17,792 - INFO - [SUCESSO] Card enviado para filial 297efd59-93fb-4768-a48f-d68c700cc7af
+2025-08-17 17:11:17,837 - INFO - Enviando card para filial 297efd59-93fb-4768-a48f-d68c700cc7af com 22 itens
+2025-08-17 17:11:18,300 - INFO - [SUCESSO] Card enviado para filial 297efd59-93fb-4768-a48f-d68c700cc7af
+2025-08-17 17:11:18,337 - INFO - Enviando card para filial 2ba372aa-5854-45e5-80d5-cb45469cae78 com 21 itens
+2025-08-17 17:11:20,575 - INFO - [SUCESSO] Card enviado para filial 2ba372aa-5854-45e5-80d5-cb45469cae78
+2025-08-17 17:11:20,606 - INFO - Enviando card para filial 2be12bba-e8fb-4780-8c07-8bb17620a2ae com 19 itens
+2025-08-17 17:11:21,094 - INFO - [SUCESSO] Card enviado para filial 2be12bba-e8fb-4780-8c07-8bb17620a2ae
+2025-08-17 17:11:21,141 - INFO - Enviando card para filial 2c1c09e6-28d0-4fea-b5e3-f75b67e1912d com 20 itens
+2025-08-17 17:11:21,580 - INFO - [SUCESSO] Card enviado para filial 2c1c09e6-28d0-4fea-b5e3-f75b67e1912d
+2025-08-17 17:11:21,619 - INFO - Enviando card para filial 2d350ffd-613f-4888-97d9-554f50047297 com 30 itens
+2025-08-17 17:11:22,131 - INFO - [SUCESSO] Card enviado para filial 2d350ffd-613f-4888-97d9-554f50047297
+2025-08-17 17:11:22,163 - INFO - Enviando card para filial 2d350ffd-613f-4888-97d9-554f50047297 com 25 itens
+2025-08-17 17:11:22,729 - INFO - [SUCESSO] Card enviado para filial 2d350ffd-613f-4888-97d9-554f50047297
+2025-08-17 17:11:22,779 - INFO - Enviando card para filial 31a0646a-78dd-4dae-a28a-5b98bfdd3f4c com 30 itens
+2025-08-17 17:11:23,436 - INFO - [SUCESSO] Card enviado para filial 31a0646a-78dd-4dae-a28a-5b98bfdd3f4c
+2025-08-17 17:11:23,483 - INFO - Enviando card para filial 31a0646a-78dd-4dae-a28a-5b98bfdd3f4c com 30 itens
+2025-08-17 17:11:23,988 - INFO - [SUCESSO] Card enviado para filial 31a0646a-78dd-4dae-a28a-5b98bfdd3f4c
+2025-08-17 17:11:24,029 - INFO - Enviando card para filial 31a0646a-78dd-4dae-a28a-5b98bfdd3f4c com 30 itens
+2025-08-17 17:11:24,683 - INFO - [SUCESSO] Card enviado para filial 31a0646a-78dd-4dae-a28a-5b98bfdd3f4c
+2025-08-17 17:11:24,723 - INFO - Enviando card para filial 31a0646a-78dd-4dae-a28a-5b98bfdd3f4c com 5 itens
+2025-08-17 17:11:25,124 - INFO - [SUCESSO] Card enviado para filial 31a0646a-78dd-4dae-a28a-5b98bfdd3f4c
+2025-08-17 17:11:25,163 - INFO - Enviando card para filial 37a8c9ec-4c05-422d-98d7-991653c10c4f com 30 itens
+2025-08-17 17:11:25,750 - INFO - [SUCESSO] Card enviado para filial 37a8c9ec-4c05-422d-98d7-991653c10c4f
+2025-08-17 17:11:25,779 - INFO - Enviando card para filial 37a8c9ec-4c05-422d-98d7-991653c10c4f com 5 itens
+2025-08-17 17:11:26,374 - INFO - [SUCESSO] Card enviado para filial 37a8c9ec-4c05-422d-98d7-991653c10c4f
+2025-08-17 17:11:26,420 - INFO - Enviando card para filial 3e27ee18-9ae8-433b-bace-c533a05b7001 com 30 itens
+2025-08-17 17:11:27,631 - INFO - [SUCESSO] Card enviado para filial 3e27ee18-9ae8-433b-bace-c533a05b7001
+2025-08-17 17:11:27,674 - INFO - Enviando card para filial 3e27ee18-9ae8-433b-bace-c533a05b7001 com 30 itens
+2025-08-17 17:11:28,101 - INFO - [SUCESSO] Card enviado para filial 3e27ee18-9ae8-433b-bace-c533a05b7001
+2025-08-17 17:11:28,143 - INFO - Enviando card para filial 3e27ee18-9ae8-433b-bace-c533a05b7001 com 19 itens
+2025-08-17 17:11:30,490 - INFO - [SUCESSO] Card enviado para filial 3e27ee18-9ae8-433b-bace-c533a05b7001
+2025-08-17 17:11:30,535 - INFO - Enviando card para filial 4091fe18-cf41-4eb5-98c4-8300ebfb32b7 com 30 itens
+2025-08-17 17:11:32,030 - INFO - [SUCESSO] Card enviado para filial 4091fe18-cf41-4eb5-98c4-8300ebfb32b7
+2025-08-17 17:11:32,080 - INFO - Enviando card para filial 4091fe18-cf41-4eb5-98c4-8300ebfb32b7 com 30 itens
+2025-08-17 17:11:32,592 - INFO - [SUCESSO] Card enviado para filial 4091fe18-cf41-4eb5-98c4-8300ebfb32b7
+2025-08-17 17:11:32,643 - INFO - Enviando card para filial 4091fe18-cf41-4eb5-98c4-8300ebfb32b7 com 30 itens
+2025-08-17 17:11:33,312 - INFO - [SUCESSO] Card enviado para filial 4091fe18-cf41-4eb5-98c4-8300ebfb32b7
+2025-08-17 17:11:33,350 - INFO - Enviando card para filial 4091fe18-cf41-4eb5-98c4-8300ebfb32b7 com 30 itens
+2025-08-17 17:11:33,818 - INFO - [SUCESSO] Card enviado para filial 4091fe18-cf41-4eb5-98c4-8300ebfb32b7
+2025-08-17 17:11:33,844 - INFO - Enviando card para filial 4091fe18-cf41-4eb5-98c4-8300ebfb32b7 com 6 itens
+2025-08-17 17:11:35,140 - INFO - [SUCESSO] Card enviado para filial 4091fe18-cf41-4eb5-98c4-8300ebfb32b7
+2025-08-17 17:11:35,177 - INFO - Enviando card para filial 417b8f24-0d7d-42a5-bc53-75b17b9c76cb com 27 itens
+2025-08-17 17:11:35,641 - INFO - [SUCESSO] Card enviado para filial 417b8f24-0d7d-42a5-bc53-75b17b9c76cb
+2025-08-17 17:11:35,671 - INFO - Enviando card para filial 41b375c7-5e7e-46d2-bd42-187418fc9ef7 com 30 itens
+2025-08-17 17:11:36,188 - INFO - [SUCESSO] Card enviado para filial 41b375c7-5e7e-46d2-bd42-187418fc9ef7
+2025-08-17 17:11:36,230 - INFO - Enviando card para filial 471286dd-d5c9-489d-8f26-05703e8e2d32 com 25 itens
+2025-08-17 17:11:36,836 - INFO - [SUCESSO] Card enviado para filial 471286dd-d5c9-489d-8f26-05703e8e2d32
+2025-08-17 17:11:36,874 - INFO - Enviando card para filial 47d3864c-6787-4510-a7d0-96870bf7fc12 com 9 itens
+2025-08-17 17:11:37,761 - INFO - [SUCESSO] Card enviado para filial 47d3864c-6787-4510-a7d0-96870bf7fc12
+2025-08-17 17:11:37,799 - INFO - Enviando card para filial 47e38b54-20d2-4c96-8d08-20a1b53e6952 com 21 itens
+2025-08-17 17:11:38,386 - INFO - [SUCESSO] Card enviado para filial 47e38b54-20d2-4c96-8d08-20a1b53e6952
+2025-08-17 17:11:38,419 - INFO - Enviando card para filial 48271ae5-bb0e-471a-a5de-23ba3d42fecd com 22 itens
+2025-08-17 17:11:39,505 - INFO - [SUCESSO] Card enviado para filial 48271ae5-bb0e-471a-a5de-23ba3d42fecd
+2025-08-17 17:11:39,538 - INFO - Enviando card para filial 49612705-ae23-4a05-804d-0d21b9335ffc com 30 itens
+2025-08-17 17:11:40,167 - INFO - [SUCESSO] Card enviado para filial 49612705-ae23-4a05-804d-0d21b9335ffc
+2025-08-17 17:11:40,210 - INFO - Enviando card para filial 49612705-ae23-4a05-804d-0d21b9335ffc com 12 itens
+2025-08-17 17:11:40,773 - INFO - [SUCESSO] Card enviado para filial 49612705-ae23-4a05-804d-0d21b9335ffc
+2025-08-17 17:11:40,806 - INFO - Enviando card para filial 4a90db1f-212f-41c4-bf75-d4bcebf68122 com 30 itens
+2025-08-17 17:11:41,457 - INFO - [SUCESSO] Card enviado para filial 4a90db1f-212f-41c4-bf75-d4bcebf68122
+2025-08-17 17:11:41,491 - INFO - Enviando card para filial 4a90db1f-212f-41c4-bf75-d4bcebf68122 com 30 itens
+2025-08-17 17:11:42,098 - INFO - [SUCESSO] Card enviado para filial 4a90db1f-212f-41c4-bf75-d4bcebf68122
+2025-08-17 17:11:42,126 - INFO - Enviando card para filial 4a90db1f-212f-41c4-bf75-d4bcebf68122 com 1 itens
+2025-08-17 17:11:42,630 - INFO - [SUCESSO] Card enviado para filial 4a90db1f-212f-41c4-bf75-d4bcebf68122
+2025-08-17 17:11:42,675 - INFO - Enviando card para filial 4b88f54f-8932-4e7d-bb9e-0b11dedd62f7 com 19 itens
+2025-08-17 17:11:43,271 - INFO - [SUCESSO] Card enviado para filial 4b88f54f-8932-4e7d-bb9e-0b11dedd62f7
+2025-08-17 17:11:43,299 - INFO - Enviando card para filial 4bb058e7-b58e-45a8-8ff4-e6196f04492b com 22 itens
+2025-08-17 17:11:43,737 - INFO - [SUCESSO] Card enviado para filial 4bb058e7-b58e-45a8-8ff4-e6196f04492b
+2025-08-17 17:11:43,779 - INFO - Enviando card para filial 4f969e0e-489d-4ef2-b7b0-fcab933a9187 com 30 itens
+2025-08-17 17:11:44,246 - INFO - [SUCESSO] Card enviado para filial 4f969e0e-489d-4ef2-b7b0-fcab933a9187
+2025-08-17 17:11:44,300 - INFO - Enviando card para filial 4f969e0e-489d-4ef2-b7b0-fcab933a9187 com 2 itens
+2025-08-17 17:11:44,645 - INFO - [SUCESSO] Card enviado para filial 4f969e0e-489d-4ef2-b7b0-fcab933a9187
+2025-08-17 17:11:44,687 - INFO - Enviando card para filial 51ef4367-be7e-408a-a655-fad1934e7e1f com 25 itens
+2025-08-17 17:11:46,073 - INFO - [SUCESSO] Card enviado para filial 51ef4367-be7e-408a-a655-fad1934e7e1f
+2025-08-17 17:11:46,125 - INFO - Enviando card para filial 522ce379-9d52-4bfc-bd20-8c157641c2fc com 30 itens
+2025-08-17 17:11:46,634 - INFO - [SUCESSO] Card enviado para filial 522ce379-9d52-4bfc-bd20-8c157641c2fc
+2025-08-17 17:11:46,662 - INFO - Enviando card para filial 522ce379-9d52-4bfc-bd20-8c157641c2fc com 24 itens
+2025-08-17 17:11:47,107 - INFO - [SUCESSO] Card enviado para filial 522ce379-9d52-4bfc-bd20-8c157641c2fc
+2025-08-17 17:11:47,157 - INFO - Enviando card para filial 5706a5cb-b6d4-4915-ac0f-813c71ec8821 com 21 itens
+2025-08-17 17:11:47,751 - INFO - [SUCESSO] Card enviado para filial 5706a5cb-b6d4-4915-ac0f-813c71ec8821
+2025-08-17 17:11:47,805 - INFO - Enviando card para filial 58138b2a-1e5b-43d5-96d6-a373128fd420 com 30 itens
+2025-08-17 17:11:48,430 - INFO - [SUCESSO] Card enviado para filial 58138b2a-1e5b-43d5-96d6-a373128fd420
+2025-08-17 17:11:48,463 - INFO - Enviando card para filial 58138b2a-1e5b-43d5-96d6-a373128fd420 com 22 itens
+2025-08-17 17:11:48,899 - INFO - [SUCESSO] Card enviado para filial 58138b2a-1e5b-43d5-96d6-a373128fd420
+2025-08-17 17:11:48,937 - INFO - Enviando card para filial 5b0da418-1e10-4154-a25d-558e34150579 com 30 itens
+2025-08-17 17:11:49,425 - INFO - [SUCESSO] Card enviado para filial 5b0da418-1e10-4154-a25d-558e34150579
+2025-08-17 17:11:49,477 - INFO - Enviando card para filial 5b0da418-1e10-4154-a25d-558e34150579 com 30 itens
+2025-08-17 17:11:49,963 - INFO - [SUCESSO] Card enviado para filial 5b0da418-1e10-4154-a25d-558e34150579
+2025-08-17 17:11:49,995 - INFO - Enviando card para filial 5b0da418-1e10-4154-a25d-558e34150579 com 30 itens
+2025-08-17 17:11:50,457 - INFO - [SUCESSO] Card enviado para filial 5b0da418-1e10-4154-a25d-558e34150579
+2025-08-17 17:11:50,487 - INFO - Enviando card para filial 5b0da418-1e10-4154-a25d-558e34150579 com 30 itens
+2025-08-17 17:11:50,953 - INFO - [SUCESSO] Card enviado para filial 5b0da418-1e10-4154-a25d-558e34150579
+2025-08-17 17:11:50,980 - INFO - Enviando card para filial 5b0da418-1e10-4154-a25d-558e34150579 com 30 itens
+2025-08-17 17:11:51,472 - INFO - [SUCESSO] Card enviado para filial 5b0da418-1e10-4154-a25d-558e34150579
+2025-08-17 17:11:51,506 - INFO - Enviando card para filial 5b0da418-1e10-4154-a25d-558e34150579 com 17 itens
+2025-08-17 17:11:51,957 - INFO - [SUCESSO] Card enviado para filial 5b0da418-1e10-4154-a25d-558e34150579
+2025-08-17 17:11:51,982 - INFO - Enviando card para filial 5bbfecc8-d2ea-4878-831b-3a506ee5f894 com 30 itens
+2025-08-17 17:11:52,665 - INFO - [SUCESSO] Card enviado para filial 5bbfecc8-d2ea-4878-831b-3a506ee5f894
+2025-08-17 17:11:52,703 - INFO - Enviando card para filial 5bbfecc8-d2ea-4878-831b-3a506ee5f894 com 29 itens
+2025-08-17 17:11:53,206 - INFO - [SUCESSO] Card enviado para filial 5bbfecc8-d2ea-4878-831b-3a506ee5f894
+2025-08-17 17:11:53,249 - INFO - Enviando card para filial 5d1e9f03-11d7-462b-ad96-e2abc02b8e47 com 30 itens
+2025-08-17 17:11:53,733 - INFO - [SUCESSO] Card enviado para filial 5d1e9f03-11d7-462b-ad96-e2abc02b8e47
+2025-08-17 17:11:53,768 - INFO - Enviando card para filial 5d1e9f03-11d7-462b-ad96-e2abc02b8e47 com 5 itens
+2025-08-17 17:11:54,146 - INFO - [SUCESSO] Card enviado para filial 5d1e9f03-11d7-462b-ad96-e2abc02b8e47
+2025-08-17 17:11:54,181 - INFO - Enviando card para filial 6405a0eb-afca-4819-9cb5-1212be52513f com 24 itens
+2025-08-17 17:11:54,607 - INFO - [SUCESSO] Card enviado para filial 6405a0eb-afca-4819-9cb5-1212be52513f
+2025-08-17 17:11:54,647 - INFO - Enviando card para filial 67273cad-808c-4726-8cf1-cc7382e5bcc7 com 18 itens
+2025-08-17 17:11:55,082 - INFO - [SUCESSO] Card enviado para filial 67273cad-808c-4726-8cf1-cc7382e5bcc7
+2025-08-17 17:11:55,115 - INFO - Enviando card para filial 6de750c1-23e3-4207-9ff0-a451b3575abf com 30 itens
+2025-08-17 17:11:55,637 - INFO - [SUCESSO] Card enviado para filial 6de750c1-23e3-4207-9ff0-a451b3575abf
+2025-08-17 17:11:55,661 - INFO - Enviando card para filial 6de750c1-23e3-4207-9ff0-a451b3575abf com 30 itens
+2025-08-17 17:11:56,277 - INFO - [SUCESSO] Card enviado para filial 6de750c1-23e3-4207-9ff0-a451b3575abf
+2025-08-17 17:11:56,317 - INFO - Enviando card para filial 6de750c1-23e3-4207-9ff0-a451b3575abf com 30 itens
+2025-08-17 17:11:57,648 - INFO - [SUCESSO] Card enviado para filial 6de750c1-23e3-4207-9ff0-a451b3575abf
+2025-08-17 17:11:57,673 - INFO - Enviando card para filial 6de750c1-23e3-4207-9ff0-a451b3575abf com 30 itens
+2025-08-17 17:11:58,129 - INFO - [SUCESSO] Card enviado para filial 6de750c1-23e3-4207-9ff0-a451b3575abf
+2025-08-17 17:11:58,161 - INFO - Enviando card para filial 6de750c1-23e3-4207-9ff0-a451b3575abf com 30 itens
+2025-08-17 17:11:58,765 - INFO - [SUCESSO] Card enviado para filial 6de750c1-23e3-4207-9ff0-a451b3575abf
+2025-08-17 17:11:58,810 - INFO - Enviando card para filial 6de750c1-23e3-4207-9ff0-a451b3575abf com 30 itens
+2025-08-17 17:11:59,407 - INFO - [SUCESSO] Card enviado para filial 6de750c1-23e3-4207-9ff0-a451b3575abf
+2025-08-17 17:11:59,426 - INFO - Enviando card para filial 6de750c1-23e3-4207-9ff0-a451b3575abf com 21 itens
+2025-08-17 17:12:00,581 - INFO - [SUCESSO] Card enviado para filial 6de750c1-23e3-4207-9ff0-a451b3575abf
+2025-08-17 17:12:00,608 - INFO - Enviando card para filial 6e9f0f75-ad77-46f8-83ff-307d82a94cb0 com 30 itens
+2025-08-17 17:12:02,009 - INFO - [SUCESSO] Card enviado para filial 6e9f0f75-ad77-46f8-83ff-307d82a94cb0
+2025-08-17 17:12:02,034 - INFO - Enviando card para filial 6e9f0f75-ad77-46f8-83ff-307d82a94cb0 com 30 itens
+2025-08-17 17:12:03,516 - INFO - [SUCESSO] Card enviado para filial 6e9f0f75-ad77-46f8-83ff-307d82a94cb0
+2025-08-17 17:12:03,555 - INFO - Enviando card para filial 6e9f0f75-ad77-46f8-83ff-307d82a94cb0 com 30 itens
+2025-08-17 17:12:04,136 - INFO - [SUCESSO] Card enviado para filial 6e9f0f75-ad77-46f8-83ff-307d82a94cb0
+2025-08-17 17:12:04,168 - INFO - Enviando card para filial 6e9f0f75-ad77-46f8-83ff-307d82a94cb0 com 30 itens
+2025-08-17 17:12:04,811 - INFO - [SUCESSO] Card enviado para filial 6e9f0f75-ad77-46f8-83ff-307d82a94cb0
+2025-08-17 17:12:04,852 - INFO - Enviando card para filial 6e9f0f75-ad77-46f8-83ff-307d82a94cb0 com 30 itens
+2025-08-17 17:12:05,516 - INFO - [SUCESSO] Card enviado para filial 6e9f0f75-ad77-46f8-83ff-307d82a94cb0
+2025-08-17 17:12:05,558 - INFO - Enviando card para filial 6e9f0f75-ad77-46f8-83ff-307d82a94cb0 com 30 itens
+2025-08-17 17:12:06,027 - INFO - [SUCESSO] Card enviado para filial 6e9f0f75-ad77-46f8-83ff-307d82a94cb0
+2025-08-17 17:12:06,062 - INFO - Enviando card para filial 6e9f0f75-ad77-46f8-83ff-307d82a94cb0 com 25 itens
+2025-08-17 17:12:07,157 - INFO - [SUCESSO] Card enviado para filial 6e9f0f75-ad77-46f8-83ff-307d82a94cb0
+2025-08-17 17:12:07,195 - INFO - Enviando card para filial 6f972e71-0d1b-4942-b5b4-dfbba9e63d9f com 30 itens
+2025-08-17 17:12:07,706 - INFO - [SUCESSO] Card enviado para filial 6f972e71-0d1b-4942-b5b4-dfbba9e63d9f
+2025-08-17 17:12:07,733 - INFO - Enviando card para filial 6f972e71-0d1b-4942-b5b4-dfbba9e63d9f com 27 itens
+2025-08-17 17:12:08,194 - INFO - [SUCESSO] Card enviado para filial 6f972e71-0d1b-4942-b5b4-dfbba9e63d9f
+2025-08-17 17:12:08,235 - INFO - Enviando card para filial 72631afe-9fbb-4e20-88af-a55936a168b4 com 22 itens
+2025-08-17 17:12:08,708 - INFO - [SUCESSO] Card enviado para filial 72631afe-9fbb-4e20-88af-a55936a168b4
+2025-08-17 17:12:08,736 - INFO - Enviando card para filial 72f73fec-82d5-4366-85b1-95d9513d7137 com 30 itens
+2025-08-17 17:12:09,336 - INFO - [SUCESSO] Card enviado para filial 72f73fec-82d5-4366-85b1-95d9513d7137
+2025-08-17 17:12:09,391 - INFO - Enviando card para filial 72f73fec-82d5-4366-85b1-95d9513d7137 com 1 itens
+2025-08-17 17:12:09,761 - INFO - [SUCESSO] Card enviado para filial 72f73fec-82d5-4366-85b1-95d9513d7137
+2025-08-17 17:12:09,798 - INFO - Enviando card para filial 76d08c70-e4bb-45a6-8cd8-00885c19eca8 com 21 itens
+2025-08-17 17:12:10,221 - INFO - [SUCESSO] Card enviado para filial 76d08c70-e4bb-45a6-8cd8-00885c19eca8
+2025-08-17 17:12:10,249 - INFO - Enviando card para filial 7738342d-77d5-480b-9739-acfe88e9dbc2 com 14 itens
+2025-08-17 17:12:11,658 - INFO - [SUCESSO] Card enviado para filial 7738342d-77d5-480b-9739-acfe88e9dbc2
+2025-08-17 17:12:11,695 - INFO - Enviando card para filial 79a05179-222c-4dfc-929a-2f4ed72a54ea com 20 itens
+2025-08-17 17:12:13,096 - INFO - [SUCESSO] Card enviado para filial 79a05179-222c-4dfc-929a-2f4ed72a54ea
+2025-08-17 17:12:13,128 - INFO - Enviando card para filial 79b479a9-f742-44d8-bc70-48bf3c917f15 com 30 itens
+2025-08-17 17:12:13,632 - INFO - [SUCESSO] Card enviado para filial 79b479a9-f742-44d8-bc70-48bf3c917f15
+2025-08-17 17:12:13,663 - INFO - Enviando card para filial 79b479a9-f742-44d8-bc70-48bf3c917f15 com 24 itens
+2025-08-17 17:12:14,117 - INFO - [SUCESSO] Card enviado para filial 79b479a9-f742-44d8-bc70-48bf3c917f15
+2025-08-17 17:12:14,159 - INFO - Enviando card para filial 7b75b0f9-270d-4945-bcda-c2b07ca86cee com 30 itens
+2025-08-17 17:12:16,156 - INFO - [SUCESSO] Card enviado para filial 7b75b0f9-270d-4945-bcda-c2b07ca86cee
+2025-08-17 17:12:16,206 - INFO - Enviando card para filial 7b75b0f9-270d-4945-bcda-c2b07ca86cee com 27 itens
+2025-08-17 17:12:17,659 - INFO - [SUCESSO] Card enviado para filial 7b75b0f9-270d-4945-bcda-c2b07ca86cee
+2025-08-17 17:12:17,704 - INFO - Enviando card para filial 7ec40963-3df8-4e3f-a494-0b9909275960 com 30 itens
+2025-08-17 17:12:19,092 - INFO - [SUCESSO] Card enviado para filial 7ec40963-3df8-4e3f-a494-0b9909275960
+2025-08-17 17:12:19,137 - INFO - Enviando card para filial 7ec40963-3df8-4e3f-a494-0b9909275960 com 30 itens
+2025-08-17 17:12:19,607 - INFO - [SUCESSO] Card enviado para filial 7ec40963-3df8-4e3f-a494-0b9909275960
+2025-08-17 17:12:19,640 - INFO - Enviando card para filial 7ec40963-3df8-4e3f-a494-0b9909275960 com 3 itens
+2025-08-17 17:12:20,589 - INFO - [SUCESSO] Card enviado para filial 7ec40963-3df8-4e3f-a494-0b9909275960
+2025-08-17 17:12:20,634 - INFO - Enviando card para filial 80406b32-0c25-46dd-a8b3-f4e2942c3108 com 25 itens
+2025-08-17 17:12:21,139 - INFO - [SUCESSO] Card enviado para filial 80406b32-0c25-46dd-a8b3-f4e2942c3108
+2025-08-17 17:12:21,182 - INFO - Enviando card para filial 83273201-1aec-4a7a-8ba2-61cac0096652 com 2 itens
+2025-08-17 17:12:21,575 - INFO - [SUCESSO] Card enviado para filial 83273201-1aec-4a7a-8ba2-61cac0096652
+2025-08-17 17:12:21,609 - INFO - Enviando card para filial 8636bd20-d74a-4f2e-bcc5-6ea55e6e2458 com 30 itens
+2025-08-17 17:12:22,661 - INFO - [SUCESSO] Card enviado para filial 8636bd20-d74a-4f2e-bcc5-6ea55e6e2458
+2025-08-17 17:12:22,692 - INFO - Enviando card para filial 8636bd20-d74a-4f2e-bcc5-6ea55e6e2458 com 30 itens
+2025-08-17 17:12:23,146 - INFO - [SUCESSO] Card enviado para filial 8636bd20-d74a-4f2e-bcc5-6ea55e6e2458
+2025-08-17 17:12:23,189 - INFO - Enviando card para filial 8636bd20-d74a-4f2e-bcc5-6ea55e6e2458 com 15 itens
+2025-08-17 17:12:23,730 - INFO - [SUCESSO] Card enviado para filial 8636bd20-d74a-4f2e-bcc5-6ea55e6e2458
+2025-08-17 17:12:23,774 - INFO - Enviando card para filial 8639380e-88cd-4a1a-96d2-aa1195a186c0 com 30 itens
+2025-08-17 17:12:24,249 - INFO - [SUCESSO] Card enviado para filial 8639380e-88cd-4a1a-96d2-aa1195a186c0
+2025-08-17 17:12:24,303 - INFO - Enviando card para filial 8639380e-88cd-4a1a-96d2-aa1195a186c0 com 30 itens
+2025-08-17 17:12:24,881 - INFO - [SUCESSO] Card enviado para filial 8639380e-88cd-4a1a-96d2-aa1195a186c0
+2025-08-17 17:12:24,919 - INFO - Enviando card para filial 8639380e-88cd-4a1a-96d2-aa1195a186c0 com 30 itens
+2025-08-17 17:12:25,398 - INFO - [SUCESSO] Card enviado para filial 8639380e-88cd-4a1a-96d2-aa1195a186c0
+2025-08-17 17:12:25,424 - INFO - Enviando card para filial 8639380e-88cd-4a1a-96d2-aa1195a186c0 com 30 itens
+2025-08-17 17:12:26,070 - INFO - [SUCESSO] Card enviado para filial 8639380e-88cd-4a1a-96d2-aa1195a186c0
+2025-08-17 17:12:26,107 - INFO - Enviando card para filial 8639380e-88cd-4a1a-96d2-aa1195a186c0 com 30 itens
+2025-08-17 17:13:06,872 - ERROR - [ERRO] Erro ao enviar card para filial 8639380e-88cd-4a1a-96d2-aa1195a186c0: 520 Server Error:  for url: https://warehouse-inventory.mottu.cloud/Order/file - Resposta: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+
+
+<title>warehouse-inventory.mottu.cloud | 520: Web server is returning an unknown error</title>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/main.css" />
+
+
+</head>
+<body>
+<div id="cf-wrapper">
+    <div id="cf-error-details" class="p-0">
+        <header class="mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-8">
+            <h1 class="inline-block sm:block sm:mb-2 font-light text-60 lg:text-4xl text-black-dark leading-tight mr-2">
+              <span class="inline-block">Web server is returning an unknown error</span>
+              <span class="code-label">Error code 520</span>
+            </h1>
+            <div>
+               Visit <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_520&utm_campaign=warehouse-inventory.mottu.cloud" target="_blank" rel="noopener noreferrer">cloudflare.com</a> for more information.
+            </div>
+            <div class="mt-3">2025-08-17 20:13:04 UTC</div>
+        </header>
+        <div class="my-8 bg-gradient-gray">
+            <div class="w-240 lg:w-full mx-auto">
+                <div class="clearfix md:px-8">
+                  
+<div id="cf-browser-status" class=" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center">
+  <div class="relative mb-10 md:m-0">
+    
+    <span class="cf-icon-browser block md:hidden h-20 bg-center bg-no-repeat"></span>
+    <span class="cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"></span>
+    
+  </div>
+  <span class="md:block w-full truncate">You</span>
+  <h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3">
+    
+    Browser
+    
+  </h3>
+  <span class="leading-1.3 text-2xl text-green-success">Working</span>
+</div>
+
+<div id="cf-cloudflare-status" class=" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center">
+  <div class="relative mb-10 md:m-0">
+    <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_520&utm_campaign=warehouse-inventory.mottu.cloud" target="_blank" rel="noopener noreferrer">
+    <span class="cf-icon-cloud block md:hidden h-20 bg-center bg-no-repeat"></span>
+    <span class="cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"></span>
+    </a>
+  </div>
+  <span class="md:block w-full truncate">São Paulo</span>
+  <h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3">
+    <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_520&utm_campaign=warehouse-inventory.mottu.cloud" target="_blank" rel="noopener noreferrer">
+    Cloudflare
+    </a>
+  </h3>
+  <span class="leading-1.3 text-2xl text-green-success">Working</span>
+</div>
+
+<div id="cf-host-status" class="cf-error-source relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center">
+  <div class="relative mb-10 md:m-0">
+    
+    <span class="cf-icon-server block md:hidden h-20 bg-center bg-no-repeat"></span>
+    <span class="cf-icon-error w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"></span>
+    
+  </div>
+  <span class="md:block w-full truncate">warehouse-inventory.mottu.cloud</span>
+  <h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3">
+    
+    Host
+    
+  </h3>
+  <span class="leading-1.3 text-2xl text-red-error">Error</span>
+</div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w-240 lg:w-full mx-auto mb-8 lg:px-8">
+            <div class="clearfix">
+                <div class="w-1/2 md:w-full float-left pr-6 md:pb-10 md:pr-0 leading-relaxed">
+                    <h2 class="text-3xl font-normal leading-1.3 mb-4">What happened?</h2>
+                    <p>There is an unknown connection issue between Cloudflare and the origin web server. As a result, the web page can not be displayed.</p>
+                </div>
+                <div class="w-1/2 md:w-full float-left leading-relaxed">
+                    <h2 class="text-3xl font-normal leading-1.3 mb-4">What can I do?</h2>
+                          <h3 class="text-15 font-semibold mb-2">If you are a visitor of this website:</h3>
+      <p class="mb-6">Please try again in a few minutes.</p>
+
+      <h3 class="text-15 font-semibold mb-2">If you are the owner of this website:</h3>
+      <p><span>There is an issue between Cloudflare's cache and your origin web server. Cloudflare monitors for these errors and automatically investigates the cause. To help support the investigation, you can pull the corresponding error log from your web server and submit it our support team.  Please include the Ray ID (which is at the bottom of this error page).</span> <a rel="noopener noreferrer" href="https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-5xx-errors/error-520/">Additional troubleshooting resources</a>.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+  <p class="text-13">
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">970bd3776be30113</strong></span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
+      Your IP:
+      <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
+      <span class="hidden" id="cf-footer-ip">177.76.225.154</span>
+      <span class="cf-footer-separator sm:hidden">&bull;</span>
+    </span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_520&utm_campaign=warehouse-inventory.mottu.cloud" id="brand_link" target="_blank">Cloudflare</a></span>
+    
+  </p>
+  <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>
+</div><!-- /.error-footer -->
+
+
+    </div>
+</div>
+</body>
+</html>
+
+2025-08-17 17:13:06,908 - INFO - Enviando card para filial 8639380e-88cd-4a1a-96d2-aa1195a186c0 com 30 itens
+2025-08-17 17:13:08,090 - INFO - [SUCESSO] Card enviado para filial 8639380e-88cd-4a1a-96d2-aa1195a186c0
+2025-08-17 17:13:08,162 - INFO - Enviando card para filial 8639380e-88cd-4a1a-96d2-aa1195a186c0 com 30 itens
+2025-08-17 17:13:08,812 - INFO - [SUCESSO] Card enviado para filial 8639380e-88cd-4a1a-96d2-aa1195a186c0
+2025-08-17 17:13:08,856 - INFO - Enviando card para filial 8639380e-88cd-4a1a-96d2-aa1195a186c0 com 1 itens
+2025-08-17 17:13:09,248 - INFO - [SUCESSO] Card enviado para filial 8639380e-88cd-4a1a-96d2-aa1195a186c0
+2025-08-17 17:13:09,293 - INFO - Enviando card para filial 8729fcdf-7e03-403d-ac45-af762e812853 com 22 itens
+2025-08-17 17:13:10,548 - INFO - [SUCESSO] Card enviado para filial 8729fcdf-7e03-403d-ac45-af762e812853
+2025-08-17 17:13:10,586 - INFO - Enviando card para filial 8771fa16-a25a-46b0-9d59-34ac084bfa6a com 30 itens
+2025-08-17 17:13:11,206 - INFO - [SUCESSO] Card enviado para filial 8771fa16-a25a-46b0-9d59-34ac084bfa6a
+2025-08-17 17:13:11,256 - INFO - Enviando card para filial 8771fa16-a25a-46b0-9d59-34ac084bfa6a com 30 itens
+2025-08-17 17:13:11,862 - INFO - [SUCESSO] Card enviado para filial 8771fa16-a25a-46b0-9d59-34ac084bfa6a
+2025-08-17 17:13:11,921 - INFO - Enviando card para filial 8771fa16-a25a-46b0-9d59-34ac084bfa6a com 30 itens
+2025-08-17 17:13:12,636 - INFO - [SUCESSO] Card enviado para filial 8771fa16-a25a-46b0-9d59-34ac084bfa6a
+2025-08-17 17:13:12,668 - INFO - Enviando card para filial 8771fa16-a25a-46b0-9d59-34ac084bfa6a com 30 itens
+2025-08-17 17:13:13,315 - INFO - [SUCESSO] Card enviado para filial 8771fa16-a25a-46b0-9d59-34ac084bfa6a
+2025-08-17 17:13:13,378 - INFO - Enviando card para filial 8771fa16-a25a-46b0-9d59-34ac084bfa6a com 30 itens
+2025-08-17 17:13:14,668 - INFO - [SUCESSO] Card enviado para filial 8771fa16-a25a-46b0-9d59-34ac084bfa6a
+2025-08-17 17:13:14,706 - INFO - Enviando card para filial 8771fa16-a25a-46b0-9d59-34ac084bfa6a com 30 itens
+2025-08-17 17:13:16,041 - INFO - [SUCESSO] Card enviado para filial 8771fa16-a25a-46b0-9d59-34ac084bfa6a
+2025-08-17 17:13:16,093 - INFO - Enviando card para filial 8771fa16-a25a-46b0-9d59-34ac084bfa6a com 23 itens
+2025-08-17 17:13:16,670 - INFO - [SUCESSO] Card enviado para filial 8771fa16-a25a-46b0-9d59-34ac084bfa6a
+2025-08-17 17:13:16,724 - INFO - Enviando card para filial 88f5763a-7085-49cb-bdbd-e1db4bbf684b com 30 itens
+2025-08-17 17:13:17,186 - INFO - [SUCESSO] Card enviado para filial 88f5763a-7085-49cb-bdbd-e1db4bbf684b
+2025-08-17 17:13:17,233 - INFO - Enviando card para filial 88f5763a-7085-49cb-bdbd-e1db4bbf684b com 19 itens
+2025-08-17 17:13:17,841 - INFO - [SUCESSO] Card enviado para filial 88f5763a-7085-49cb-bdbd-e1db4bbf684b
+2025-08-17 17:13:17,892 - INFO - Enviando card para filial 89790b55-a253-451b-9fde-d4dfebeb1c2e com 30 itens
+2025-08-17 17:13:18,530 - INFO - [SUCESSO] Card enviado para filial 89790b55-a253-451b-9fde-d4dfebeb1c2e
+2025-08-17 17:13:18,573 - INFO - Enviando card para filial 89790b55-a253-451b-9fde-d4dfebeb1c2e com 15 itens
+2025-08-17 17:13:19,093 - INFO - [SUCESSO] Card enviado para filial 89790b55-a253-451b-9fde-d4dfebeb1c2e
+2025-08-17 17:13:19,123 - INFO - Enviando card para filial 8d3b281c-5434-48cc-843d-a0b759bfb0f7 com 21 itens
+2025-08-17 17:13:19,679 - INFO - [SUCESSO] Card enviado para filial 8d3b281c-5434-48cc-843d-a0b759bfb0f7
+2025-08-17 17:13:19,727 - INFO - Enviando card para filial 8e9cd138-a986-46d9-98a1-5e825977cef7 com 24 itens
+2025-08-17 17:13:20,310 - INFO - [SUCESSO] Card enviado para filial 8e9cd138-a986-46d9-98a1-5e825977cef7
+2025-08-17 17:13:20,357 - INFO - Enviando card para filial 9604de9f-b2f4-494a-a2b5-29505ce93316 com 30 itens
+2025-08-17 17:13:21,053 - INFO - [SUCESSO] Card enviado para filial 9604de9f-b2f4-494a-a2b5-29505ce93316
+2025-08-17 17:13:21,083 - INFO - Enviando card para filial 9604de9f-b2f4-494a-a2b5-29505ce93316 com 29 itens
+2025-08-17 17:13:21,517 - INFO - [SUCESSO] Card enviado para filial 9604de9f-b2f4-494a-a2b5-29505ce93316
+2025-08-17 17:13:21,586 - INFO - Enviando card para filial 9958cd88-755f-45ac-b600-b9eda540f9f9 com 30 itens
+2025-08-17 17:13:22,022 - INFO - [SUCESSO] Card enviado para filial 9958cd88-755f-45ac-b600-b9eda540f9f9
+2025-08-17 17:13:22,071 - INFO - Enviando card para filial 9958cd88-755f-45ac-b600-b9eda540f9f9 com 30 itens
+2025-08-17 17:13:23,527 - INFO - [SUCESSO] Card enviado para filial 9958cd88-755f-45ac-b600-b9eda540f9f9
+2025-08-17 17:13:23,575 - INFO - Enviando card para filial 9958cd88-755f-45ac-b600-b9eda540f9f9 com 12 itens
+2025-08-17 17:13:23,961 - INFO - [SUCESSO] Card enviado para filial 9958cd88-755f-45ac-b600-b9eda540f9f9
+2025-08-17 17:13:24,006 - INFO - Enviando card para filial 9ec2b257-c60a-48bf-93d6-3cf93657ec2b com 30 itens
+2025-08-17 17:13:24,674 - INFO - [SUCESSO] Card enviado para filial 9ec2b257-c60a-48bf-93d6-3cf93657ec2b
+2025-08-17 17:13:24,709 - INFO - Enviando card para filial 9ec2b257-c60a-48bf-93d6-3cf93657ec2b com 8 itens
+2025-08-17 17:13:25,228 - INFO - [SUCESSO] Card enviado para filial 9ec2b257-c60a-48bf-93d6-3cf93657ec2b
+2025-08-17 17:13:25,257 - INFO - Enviando card para filial 9f58344c-5f4c-4fc0-8f64-2fe4b2632744 com 21 itens
+2025-08-17 17:13:25,952 - INFO - [SUCESSO] Card enviado para filial 9f58344c-5f4c-4fc0-8f64-2fe4b2632744
+2025-08-17 17:13:25,977 - INFO - Enviando card para filial a01ec5e4-df66-4be5-b2e3-a0ca93f638bb com 30 itens
+2025-08-17 17:13:26,449 - INFO - [SUCESSO] Card enviado para filial a01ec5e4-df66-4be5-b2e3-a0ca93f638bb
+2025-08-17 17:13:26,488 - INFO - Enviando card para filial a01ec5e4-df66-4be5-b2e3-a0ca93f638bb com 30 itens
+2025-08-17 17:13:27,037 - INFO - [SUCESSO] Card enviado para filial a01ec5e4-df66-4be5-b2e3-a0ca93f638bb
+2025-08-17 17:13:27,085 - INFO - Enviando card para filial a471ca50-1b3d-4646-af07-177c2c73ad0b com 30 itens
+2025-08-17 17:13:27,543 - INFO - [SUCESSO] Card enviado para filial a471ca50-1b3d-4646-af07-177c2c73ad0b
+2025-08-17 17:13:27,585 - INFO - Enviando card para filial a471ca50-1b3d-4646-af07-177c2c73ad0b com 30 itens
+2025-08-17 17:13:28,682 - INFO - [SUCESSO] Card enviado para filial a471ca50-1b3d-4646-af07-177c2c73ad0b
+2025-08-17 17:13:28,723 - INFO - Enviando card para filial a471ca50-1b3d-4646-af07-177c2c73ad0b com 26 itens
+2025-08-17 17:13:29,420 - INFO - [SUCESSO] Card enviado para filial a471ca50-1b3d-4646-af07-177c2c73ad0b
+2025-08-17 17:13:29,458 - INFO - Enviando card para filial a69c94fc-e6f3-49b6-84b4-cac4833cbed1 com 30 itens
+2025-08-17 17:13:29,918 - INFO - [SUCESSO] Card enviado para filial a69c94fc-e6f3-49b6-84b4-cac4833cbed1
+2025-08-17 17:13:29,951 - INFO - Enviando card para filial a69c94fc-e6f3-49b6-84b4-cac4833cbed1 com 30 itens
+2025-08-17 17:13:30,406 - INFO - [SUCESSO] Card enviado para filial a69c94fc-e6f3-49b6-84b4-cac4833cbed1
+2025-08-17 17:13:30,447 - INFO - Enviando card para filial a69c94fc-e6f3-49b6-84b4-cac4833cbed1 com 30 itens
+2025-08-17 17:13:31,202 - INFO - [SUCESSO] Card enviado para filial a69c94fc-e6f3-49b6-84b4-cac4833cbed1
+2025-08-17 17:13:31,259 - INFO - Enviando card para filial a69c94fc-e6f3-49b6-84b4-cac4833cbed1 com 30 itens
+2025-08-17 17:13:31,719 - INFO - [SUCESSO] Card enviado para filial a69c94fc-e6f3-49b6-84b4-cac4833cbed1
+2025-08-17 17:13:31,765 - INFO - Enviando card para filial a69c94fc-e6f3-49b6-84b4-cac4833cbed1 com 6 itens
+2025-08-17 17:13:32,129 - INFO - [SUCESSO] Card enviado para filial a69c94fc-e6f3-49b6-84b4-cac4833cbed1
+2025-08-17 17:13:32,161 - INFO - Enviando card para filial ac03e889-cd9a-465e-bd77-266daac72992 com 30 itens
+2025-08-17 17:13:32,808 - INFO - [SUCESSO] Card enviado para filial ac03e889-cd9a-465e-bd77-266daac72992
+2025-08-17 17:13:32,846 - INFO - Enviando card para filial ac03e889-cd9a-465e-bd77-266daac72992 com 5 itens
+2025-08-17 17:13:33,407 - INFO - [SUCESSO] Card enviado para filial ac03e889-cd9a-465e-bd77-266daac72992
+2025-08-17 17:13:33,446 - INFO - Enviando card para filial ada72746-3910-45de-a7fe-d6d2dd53e3f9 com 30 itens
+2025-08-17 17:13:34,046 - INFO - [SUCESSO] Card enviado para filial ada72746-3910-45de-a7fe-d6d2dd53e3f9
+2025-08-17 17:13:34,081 - INFO - Enviando card para filial ada72746-3910-45de-a7fe-d6d2dd53e3f9 com 5 itens
+2025-08-17 17:13:34,437 - INFO - [SUCESSO] Card enviado para filial ada72746-3910-45de-a7fe-d6d2dd53e3f9
+2025-08-17 17:13:34,496 - INFO - Enviando card para filial b2f79c8e-9e2e-4b42-9118-b3236540ba70 com 30 itens
+2025-08-17 17:13:35,072 - INFO - [SUCESSO] Card enviado para filial b2f79c8e-9e2e-4b42-9118-b3236540ba70
+2025-08-17 17:13:35,117 - INFO - Enviando card para filial b2f79c8e-9e2e-4b42-9118-b3236540ba70 com 30 itens
+2025-08-17 17:13:35,853 - INFO - [SUCESSO] Card enviado para filial b2f79c8e-9e2e-4b42-9118-b3236540ba70
+2025-08-17 17:13:35,892 - INFO - Enviando card para filial b2f79c8e-9e2e-4b42-9118-b3236540ba70 com 2 itens
+2025-08-17 17:13:36,255 - INFO - [SUCESSO] Card enviado para filial b2f79c8e-9e2e-4b42-9118-b3236540ba70
+2025-08-17 17:13:36,299 - INFO - Enviando card para filial b9158bfb-5b40-4b0b-89db-ed8eed45a789 com 30 itens
+2025-08-17 17:13:37,606 - INFO - [SUCESSO] Card enviado para filial b9158bfb-5b40-4b0b-89db-ed8eed45a789
+2025-08-17 17:13:37,647 - INFO - Enviando card para filial b9158bfb-5b40-4b0b-89db-ed8eed45a789 com 1 itens
+2025-08-17 17:13:38,303 - INFO - [SUCESSO] Card enviado para filial b9158bfb-5b40-4b0b-89db-ed8eed45a789
+2025-08-17 17:13:38,347 - INFO - Enviando card para filial ba416053-d4c3-4ed1-a233-e1a7e85e0b45 com 24 itens
+2025-08-17 17:13:38,906 - INFO - [SUCESSO] Card enviado para filial ba416053-d4c3-4ed1-a233-e1a7e85e0b45
+2025-08-17 17:13:38,949 - INFO - Enviando card para filial bfbabfc2-0ce7-42bd-a99f-8c9260573c20 com 14 itens
+2025-08-17 17:13:40,171 - INFO - [SUCESSO] Card enviado para filial bfbabfc2-0ce7-42bd-a99f-8c9260573c20
+2025-08-17 17:13:40,219 - INFO - Enviando card para filial c129fe63-c1f4-440e-8c4a-ffc4b97746ee com 30 itens
+2025-08-17 17:13:42,201 - INFO - [SUCESSO] Card enviado para filial c129fe63-c1f4-440e-8c4a-ffc4b97746ee
+2025-08-17 17:13:42,253 - INFO - Enviando card para filial c129fe63-c1f4-440e-8c4a-ffc4b97746ee com 5 itens
+2025-08-17 17:13:42,622 - INFO - [SUCESSO] Card enviado para filial c129fe63-c1f4-440e-8c4a-ffc4b97746ee
+2025-08-17 17:13:42,671 - INFO - Enviando card para filial c1c4150c-74fb-481f-93ef-fe6ab7412830 com 30 itens
+2025-08-17 17:13:44,200 - INFO - [SUCESSO] Card enviado para filial c1c4150c-74fb-481f-93ef-fe6ab7412830
+2025-08-17 17:13:44,260 - INFO - Enviando card para filial c2108d54-021e-450f-aff2-dabd0f66dbce com 30 itens
+2025-08-17 17:13:45,004 - INFO - [SUCESSO] Card enviado para filial c2108d54-021e-450f-aff2-dabd0f66dbce
+2025-08-17 17:13:45,047 - INFO - Enviando card para filial c2108d54-021e-450f-aff2-dabd0f66dbce com 30 itens
+2025-08-17 17:13:45,756 - INFO - [SUCESSO] Card enviado para filial c2108d54-021e-450f-aff2-dabd0f66dbce
+2025-08-17 17:13:45,803 - INFO - Enviando card para filial c2108d54-021e-450f-aff2-dabd0f66dbce com 30 itens
+2025-08-17 17:13:46,505 - INFO - [SUCESSO] Card enviado para filial c2108d54-021e-450f-aff2-dabd0f66dbce
+2025-08-17 17:13:46,539 - INFO - Enviando card para filial c2108d54-021e-450f-aff2-dabd0f66dbce com 30 itens
+2025-08-17 17:13:46,981 - INFO - [SUCESSO] Card enviado para filial c2108d54-021e-450f-aff2-dabd0f66dbce
+2025-08-17 17:13:47,015 - INFO - Enviando card para filial c2108d54-021e-450f-aff2-dabd0f66dbce com 30 itens
+2025-08-17 17:13:47,425 - INFO - [SUCESSO] Card enviado para filial c2108d54-021e-450f-aff2-dabd0f66dbce
+2025-08-17 17:13:47,463 - INFO - Enviando card para filial c2108d54-021e-450f-aff2-dabd0f66dbce com 30 itens
+2025-08-17 17:13:47,929 - INFO - [SUCESSO] Card enviado para filial c2108d54-021e-450f-aff2-dabd0f66dbce
+2025-08-17 17:13:47,965 - INFO - Enviando card para filial c2108d54-021e-450f-aff2-dabd0f66dbce com 30 itens
+2025-08-17 17:13:48,440 - INFO - [SUCESSO] Card enviado para filial c2108d54-021e-450f-aff2-dabd0f66dbce
+2025-08-17 17:13:48,479 - INFO - Enviando card para filial c2108d54-021e-450f-aff2-dabd0f66dbce com 2 itens
+2025-08-17 17:13:49,288 - INFO - [SUCESSO] Card enviado para filial c2108d54-021e-450f-aff2-dabd0f66dbce
+2025-08-17 17:13:49,325 - INFO - Enviando card para filial c510b05d-ce17-45e7-b35d-c3cc5be58d18 com 30 itens
+2025-08-17 17:13:49,820 - INFO - [SUCESSO] Card enviado para filial c510b05d-ce17-45e7-b35d-c3cc5be58d18
+2025-08-17 17:13:49,856 - INFO - Enviando card para filial c510b05d-ce17-45e7-b35d-c3cc5be58d18 com 30 itens
+2025-08-17 17:13:50,325 - INFO - [SUCESSO] Card enviado para filial c510b05d-ce17-45e7-b35d-c3cc5be58d18
+2025-08-17 17:13:50,366 - INFO - Enviando card para filial c510b05d-ce17-45e7-b35d-c3cc5be58d18 com 8 itens
+2025-08-17 17:13:50,966 - INFO - [SUCESSO] Card enviado para filial c510b05d-ce17-45e7-b35d-c3cc5be58d18
+2025-08-17 17:13:51,005 - INFO - Enviando card para filial c7ed0f28-79d2-412a-9c0d-25300ed627dd com 30 itens
+2025-08-17 17:13:51,941 - INFO - [SUCESSO] Card enviado para filial c7ed0f28-79d2-412a-9c0d-25300ed627dd
+2025-08-17 17:13:51,982 - INFO - Enviando card para filial c7ed0f28-79d2-412a-9c0d-25300ed627dd com 30 itens
+2025-08-17 17:13:52,596 - INFO - [SUCESSO] Card enviado para filial c7ed0f28-79d2-412a-9c0d-25300ed627dd
+2025-08-17 17:13:52,632 - INFO - Enviando card para filial c7ed0f28-79d2-412a-9c0d-25300ed627dd com 30 itens
+2025-08-17 17:13:53,119 - INFO - [SUCESSO] Card enviado para filial c7ed0f28-79d2-412a-9c0d-25300ed627dd
+2025-08-17 17:13:53,155 - INFO - Enviando card para filial c7ed0f28-79d2-412a-9c0d-25300ed627dd com 30 itens
+2025-08-17 17:13:53,900 - INFO - [SUCESSO] Card enviado para filial c7ed0f28-79d2-412a-9c0d-25300ed627dd
+2025-08-17 17:13:53,945 - INFO - Enviando card para filial c7ed0f28-79d2-412a-9c0d-25300ed627dd com 30 itens
+2025-08-17 17:13:54,405 - INFO - [SUCESSO] Card enviado para filial c7ed0f28-79d2-412a-9c0d-25300ed627dd
+2025-08-17 17:13:54,441 - INFO - Enviando card para filial c7ed0f28-79d2-412a-9c0d-25300ed627dd com 30 itens
+2025-08-17 17:13:55,117 - INFO - [SUCESSO] Card enviado para filial c7ed0f28-79d2-412a-9c0d-25300ed627dd
+2025-08-17 17:13:55,153 - INFO - Enviando card para filial c7ed0f28-79d2-412a-9c0d-25300ed627dd com 5 itens
+2025-08-17 17:13:55,740 - INFO - [SUCESSO] Card enviado para filial c7ed0f28-79d2-412a-9c0d-25300ed627dd
+2025-08-17 17:13:55,776 - INFO - Enviando card para filial c8b108ee-83e2-4902-b8eb-d65a2f093181 com 30 itens
+2025-08-17 17:13:56,486 - INFO - [SUCESSO] Card enviado para filial c8b108ee-83e2-4902-b8eb-d65a2f093181
+2025-08-17 17:13:56,525 - INFO - Enviando card para filial c8b108ee-83e2-4902-b8eb-d65a2f093181 com 24 itens
+2025-08-17 17:13:56,944 - INFO - [SUCESSO] Card enviado para filial c8b108ee-83e2-4902-b8eb-d65a2f093181
+2025-08-17 17:13:56,978 - INFO - Enviando card para filial ca23aa6d-e8d1-41b7-86f8-e200fec458e6 com 30 itens
+2025-08-17 17:13:57,429 - INFO - [SUCESSO] Card enviado para filial ca23aa6d-e8d1-41b7-86f8-e200fec458e6
+2025-08-17 17:13:57,467 - INFO - Enviando card para filial ca23aa6d-e8d1-41b7-86f8-e200fec458e6 com 30 itens
+2025-08-17 17:13:57,902 - INFO - [SUCESSO] Card enviado para filial ca23aa6d-e8d1-41b7-86f8-e200fec458e6
+2025-08-17 17:13:57,937 - INFO - Enviando card para filial ca23aa6d-e8d1-41b7-86f8-e200fec458e6 com 10 itens
+2025-08-17 17:13:59,201 - INFO - [SUCESSO] Card enviado para filial ca23aa6d-e8d1-41b7-86f8-e200fec458e6
+2025-08-17 17:13:59,234 - INFO - Enviando card para filial cb197a3f-ce18-4bfd-80a9-8999000971e1 com 30 itens
+2025-08-17 17:13:59,810 - INFO - [SUCESSO] Card enviado para filial cb197a3f-ce18-4bfd-80a9-8999000971e1
+2025-08-17 17:13:59,871 - INFO - Enviando card para filial cb197a3f-ce18-4bfd-80a9-8999000971e1 com 25 itens
+2025-08-17 17:14:00,431 - INFO - [SUCESSO] Card enviado para filial cb197a3f-ce18-4bfd-80a9-8999000971e1
+2025-08-17 17:14:00,466 - INFO - Enviando card para filial cefdb518-ba15-428f-8adb-62e2cc7c859e com 24 itens
+2025-08-17 17:14:00,891 - INFO - [SUCESSO] Card enviado para filial cefdb518-ba15-428f-8adb-62e2cc7c859e
+2025-08-17 17:14:00,926 - INFO - Enviando card para filial d03e925a-1660-437f-9996-f24b538eca39 com 30 itens
+2025-08-17 17:14:01,417 - INFO - [SUCESSO] Card enviado para filial d03e925a-1660-437f-9996-f24b538eca39
+2025-08-17 17:14:01,454 - INFO - Enviando card para filial d03e925a-1660-437f-9996-f24b538eca39 com 30 itens
+2025-08-17 17:14:02,368 - INFO - [SUCESSO] Card enviado para filial d03e925a-1660-437f-9996-f24b538eca39
+2025-08-17 17:14:02,403 - INFO - Enviando card para filial d03e925a-1660-437f-9996-f24b538eca39 com 26 itens
+2025-08-17 17:14:03,055 - INFO - [SUCESSO] Card enviado para filial d03e925a-1660-437f-9996-f24b538eca39
+2025-08-17 17:14:03,091 - INFO - Enviando card para filial d0ee153e-4086-4d8f-8021-4b1b76d354ab com 21 itens
+2025-08-17 17:14:03,547 - INFO - [SUCESSO] Card enviado para filial d0ee153e-4086-4d8f-8021-4b1b76d354ab
+2025-08-17 17:14:03,586 - INFO - Enviando card para filial d3540cba-b564-4317-94a4-20dcbc2ae839 com 19 itens
+2025-08-17 17:14:04,250 - INFO - [SUCESSO] Card enviado para filial d3540cba-b564-4317-94a4-20dcbc2ae839
+2025-08-17 17:14:04,290 - INFO - Enviando card para filial d3c433b9-1e77-4a87-a368-46c6b31606a8 com 30 itens
+2025-08-17 17:14:05,020 - INFO - [SUCESSO] Card enviado para filial d3c433b9-1e77-4a87-a368-46c6b31606a8
+2025-08-17 17:14:05,050 - INFO - Enviando card para filial d3c433b9-1e77-4a87-a368-46c6b31606a8 com 23 itens
+2025-08-17 17:14:05,891 - INFO - [SUCESSO] Card enviado para filial d3c433b9-1e77-4a87-a368-46c6b31606a8
+2025-08-17 17:14:05,928 - INFO - Enviando card para filial d3d2fd53-0959-4c72-84c7-adad0e27fca5 com 30 itens
+2025-08-17 17:14:06,385 - INFO - [SUCESSO] Card enviado para filial d3d2fd53-0959-4c72-84c7-adad0e27fca5
+2025-08-17 17:14:06,422 - INFO - Enviando card para filial d3d2fd53-0959-4c72-84c7-adad0e27fca5 com 30 itens
+2025-08-17 17:14:07,126 - INFO - [SUCESSO] Card enviado para filial d3d2fd53-0959-4c72-84c7-adad0e27fca5
+2025-08-17 17:14:07,180 - INFO - Enviando card para filial d3d2fd53-0959-4c72-84c7-adad0e27fca5 com 30 itens
+2025-08-17 17:14:07,796 - INFO - [SUCESSO] Card enviado para filial d3d2fd53-0959-4c72-84c7-adad0e27fca5
+2025-08-17 17:14:07,829 - INFO - Enviando card para filial d3d2fd53-0959-4c72-84c7-adad0e27fca5 com 30 itens
+2025-08-17 17:14:08,266 - INFO - [SUCESSO] Card enviado para filial d3d2fd53-0959-4c72-84c7-adad0e27fca5
+2025-08-17 17:14:08,306 - INFO - Enviando card para filial d3d2fd53-0959-4c72-84c7-adad0e27fca5 com 30 itens
+2025-08-17 17:14:08,885 - INFO - [SUCESSO] Card enviado para filial d3d2fd53-0959-4c72-84c7-adad0e27fca5
+2025-08-17 17:14:08,925 - INFO - Enviando card para filial d3d2fd53-0959-4c72-84c7-adad0e27fca5 com 27 itens
+2025-08-17 17:14:09,608 - INFO - [SUCESSO] Card enviado para filial d3d2fd53-0959-4c72-84c7-adad0e27fca5
+2025-08-17 17:14:09,651 - INFO - Enviando card para filial d4c6c7a3-e8b1-48f5-8772-a1e48bd22193 com 30 itens
+2025-08-17 17:14:10,112 - INFO - [SUCESSO] Card enviado para filial d4c6c7a3-e8b1-48f5-8772-a1e48bd22193
+2025-08-17 17:14:10,147 - INFO - Enviando card para filial d4c6c7a3-e8b1-48f5-8772-a1e48bd22193 com 30 itens
+2025-08-17 17:14:10,610 - INFO - [SUCESSO] Card enviado para filial d4c6c7a3-e8b1-48f5-8772-a1e48bd22193
+2025-08-17 17:14:10,658 - INFO - Enviando card para filial d4c6c7a3-e8b1-48f5-8772-a1e48bd22193 com 2 itens
+2025-08-17 17:14:11,251 - INFO - [SUCESSO] Card enviado para filial d4c6c7a3-e8b1-48f5-8772-a1e48bd22193
+2025-08-17 17:14:11,296 - INFO - Enviando card para filial d5155f13-886d-4f8e-b3da-63626c60c6f4 com 30 itens
+2025-08-17 17:14:11,953 - INFO - [SUCESSO] Card enviado para filial d5155f13-886d-4f8e-b3da-63626c60c6f4
+2025-08-17 17:14:11,988 - INFO - Enviando card para filial d5155f13-886d-4f8e-b3da-63626c60c6f4 com 4 itens
+2025-08-17 17:14:12,364 - INFO - [SUCESSO] Card enviado para filial d5155f13-886d-4f8e-b3da-63626c60c6f4
+2025-08-17 17:14:12,413 - INFO - Enviando card para filial d764db78-0672-43c3-b1b2-b095ca4bfebf com 30 itens
+2025-08-17 17:14:12,874 - INFO - [SUCESSO] Card enviado para filial d764db78-0672-43c3-b1b2-b095ca4bfebf
+2025-08-17 17:14:12,914 - INFO - Enviando card para filial d764db78-0672-43c3-b1b2-b095ca4bfebf com 28 itens
+2025-08-17 17:14:13,369 - INFO - [SUCESSO] Card enviado para filial d764db78-0672-43c3-b1b2-b095ca4bfebf
+2025-08-17 17:14:13,409 - INFO - Enviando card para filial e395bd64-f71a-41ce-9c8d-51f0616d7520 com 30 itens
+2025-08-17 17:14:13,901 - INFO - [SUCESSO] Card enviado para filial e395bd64-f71a-41ce-9c8d-51f0616d7520
+2025-08-17 17:14:13,933 - INFO - Enviando card para filial e395bd64-f71a-41ce-9c8d-51f0616d7520 com 30 itens
+2025-08-17 17:14:14,442 - INFO - [SUCESSO] Card enviado para filial e395bd64-f71a-41ce-9c8d-51f0616d7520
+2025-08-17 17:14:14,473 - INFO - Enviando card para filial e395bd64-f71a-41ce-9c8d-51f0616d7520 com 30 itens
+2025-08-17 17:14:15,320 - INFO - [SUCESSO] Card enviado para filial e395bd64-f71a-41ce-9c8d-51f0616d7520
+2025-08-17 17:14:15,354 - INFO - Enviando card para filial e395bd64-f71a-41ce-9c8d-51f0616d7520 com 30 itens
+2025-08-17 17:14:15,947 - INFO - [SUCESSO] Card enviado para filial e395bd64-f71a-41ce-9c8d-51f0616d7520
+2025-08-17 17:14:15,985 - INFO - Enviando card para filial e395bd64-f71a-41ce-9c8d-51f0616d7520 com 30 itens
+2025-08-17 17:14:16,827 - INFO - [SUCESSO] Card enviado para filial e395bd64-f71a-41ce-9c8d-51f0616d7520
+2025-08-17 17:14:16,874 - INFO - Enviando card para filial e395bd64-f71a-41ce-9c8d-51f0616d7520 com 30 itens
+2025-08-17 17:14:17,355 - INFO - [SUCESSO] Card enviado para filial e395bd64-f71a-41ce-9c8d-51f0616d7520
+2025-08-17 17:14:17,390 - INFO - Enviando card para filial e395bd64-f71a-41ce-9c8d-51f0616d7520 com 22 itens
+2025-08-17 17:14:18,030 - INFO - [SUCESSO] Card enviado para filial e395bd64-f71a-41ce-9c8d-51f0616d7520
+2025-08-17 17:14:18,061 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107109861160 com 30 itens
+2025-08-17 17:14:19,121 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107109861160
+2025-08-17 17:14:19,162 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107109861160 com 30 itens
+2025-08-17 17:14:19,607 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107109861160
+2025-08-17 17:14:19,646 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107109861160 com 28 itens
+2025-08-17 17:14:20,268 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107109861160
+2025-08-17 17:14:20,302 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107111015530 com 30 itens
+2025-08-17 17:14:20,738 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107111015530
+2025-08-17 17:14:20,769 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107111015530 com 29 itens
+2025-08-17 17:14:21,462 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107111015530
+2025-08-17 17:14:21,495 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107112235450 com 30 itens
+2025-08-17 17:14:21,982 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107112235450
+2025-08-17 17:14:22,013 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107112235450 com 30 itens
+2025-08-17 17:14:22,457 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107112235450
+2025-08-17 17:14:22,496 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107112235450 com 30 itens
+2025-08-17 17:14:22,970 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107112235450
+2025-08-17 17:14:23,022 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107112235450 com 25 itens
+2025-08-17 17:14:23,484 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107112235450
+2025-08-17 17:14:23,519 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107129164018 com 30 itens
+2025-08-17 17:14:24,108 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107129164018
+2025-08-17 17:14:24,140 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107129164018 com 30 itens
+2025-08-17 17:14:24,623 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107129164018
+2025-08-17 17:14:24,656 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107129164018 com 25 itens
+2025-08-17 17:14:25,090 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107129164018
+2025-08-17 17:14:25,126 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107154400410 com 23 itens
+2025-08-17 17:14:26,655 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107154400410
+2025-08-17 17:14:26,693 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107157081080 com 25 itens
+2025-08-17 17:14:27,256 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107157081080
+2025-08-17 17:14:27,295 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107180510100 com 30 itens
+2025-08-17 17:14:27,962 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107180510100
+2025-08-17 17:14:27,997 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107180510100 com 30 itens
+2025-08-17 17:14:28,452 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107180510100
+2025-08-17 17:14:28,480 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107180510100 com 30 itens
+2025-08-17 17:14:28,934 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107180510100
+2025-08-17 17:14:28,958 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107180510100 com 16 itens
+2025-08-17 17:14:29,530 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107180510100
+2025-08-17 17:14:29,571 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107180850100 com 30 itens
+2025-08-17 17:14:30,057 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107180850100
+2025-08-17 17:14:30,078 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107180850100 com 30 itens
+2025-08-17 17:14:30,646 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107180850100
+2025-08-17 17:14:30,677 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107180850100 com 30 itens
+2025-08-17 17:14:31,129 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107180850100
+2025-08-17 17:14:31,159 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107180850100 com 30 itens
+2025-08-17 17:14:32,128 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107180850100
+2025-08-17 17:14:32,171 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107180850100 com 1 itens
+2025-08-17 17:14:32,707 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107180850100
+2025-08-17 17:14:32,733 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107181310100 com 30 itens
+2025-08-17 17:14:33,207 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107181310100
+2025-08-17 17:14:33,238 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107181310100 com 30 itens
+2025-08-17 17:14:33,708 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107181310100
+2025-08-17 17:14:33,733 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107181310100 com 21 itens
+2025-08-17 17:14:34,407 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107181310100
+2025-08-17 17:14:34,438 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107181460100 com 30 itens
+2025-08-17 17:14:34,910 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107181460100
+2025-08-17 17:14:34,947 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107181460100 com 25 itens
+2025-08-17 17:14:36,251 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107181460100
+2025-08-17 17:14:36,285 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107183160100 com 30 itens
+2025-08-17 17:14:36,919 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107183160100
+2025-08-17 17:14:36,963 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107183160100 com 30 itens
+2025-08-17 17:14:38,132 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107183160100
+2025-08-17 17:14:38,170 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107183160100 com 23 itens
+2025-08-17 17:14:39,656 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107183160100
+2025-08-17 17:14:39,692 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107184010100 com 30 itens
+2025-08-17 17:14:40,148 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107184010100
+2025-08-17 17:14:40,173 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107184010100 com 3 itens
+2025-08-17 17:14:40,544 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107184010100
+2025-08-17 17:14:40,594 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107186070100 com 29 itens
+2025-08-17 17:14:41,024 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107186070100
+2025-08-17 17:14:41,073 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107186980100 com 30 itens
+2025-08-17 17:14:41,522 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107186980100
+2025-08-17 17:14:41,563 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107186980100 com 30 itens
+2025-08-17 17:14:42,639 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107186980100
+2025-08-17 17:14:42,672 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107186980100 com 9 itens
+2025-08-17 17:14:43,268 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107186980100
+2025-08-17 17:14:43,312 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107187280100 com 30 itens
+2025-08-17 17:14:43,761 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107187280100
+2025-08-17 17:14:43,805 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107187280100 com 10 itens
+2025-08-17 17:14:45,220 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107187280100
+2025-08-17 17:14:45,257 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107187410100 com 30 itens
+2025-08-17 17:14:45,706 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107187410100
+2025-08-17 17:14:45,761 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107187410100 com 30 itens
+2025-08-17 17:14:47,126 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107187410100
+2025-08-17 17:14:47,176 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107187410100 com 15 itens
+2025-08-17 17:14:47,613 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107187410100
+2025-08-17 17:14:47,673 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107188130100 com 30 itens
+2025-08-17 17:14:48,407 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107188130100
+2025-08-17 17:14:48,445 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107188130100 com 30 itens
+2025-08-17 17:14:49,092 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107188130100
+2025-08-17 17:14:49,149 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107188130100 com 30 itens
+2025-08-17 17:14:49,753 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107188130100
+2025-08-17 17:14:49,792 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107188130100 com 7 itens
+2025-08-17 17:14:50,189 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107188130100
+2025-08-17 17:14:50,250 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107189010100 com 30 itens
+2025-08-17 17:14:52,652 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107189010100
+2025-08-17 17:14:52,681 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107189010100 com 30 itens
+2025-08-17 17:14:53,435 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107189010100
+2025-08-17 17:14:53,487 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107189010100 com 30 itens
+2025-08-17 17:14:53,909 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107189010100
+2025-08-17 17:14:53,955 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107189010100 com 30 itens
+2025-08-17 17:14:54,656 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107189010100
+2025-08-17 17:14:54,696 - INFO - Enviando card para filial e48d3978-c827-4ba9-b3e5-107189010100 com 21 itens
+2025-08-17 17:14:55,280 - INFO - [SUCESSO] Card enviado para filial e48d3978-c827-4ba9-b3e5-107189010100
+2025-08-17 17:14:55,323 - INFO - Enviando card para filial e5a177b2-dd9e-4f0f-95d8-6d4673b9a63b com 30 itens
+2025-08-17 17:14:56,218 - INFO - [SUCESSO] Card enviado para filial e5a177b2-dd9e-4f0f-95d8-6d4673b9a63b
+2025-08-17 17:14:56,256 - INFO - Enviando card para filial e5a177b2-dd9e-4f0f-95d8-6d4673b9a63b com 30 itens
+2025-08-17 17:14:57,655 - INFO - [SUCESSO] Card enviado para filial e5a177b2-dd9e-4f0f-95d8-6d4673b9a63b
+2025-08-17 17:14:57,698 - INFO - Enviando card para filial e5a177b2-dd9e-4f0f-95d8-6d4673b9a63b com 30 itens
+2025-08-17 17:14:58,374 - INFO - [SUCESSO] Card enviado para filial e5a177b2-dd9e-4f0f-95d8-6d4673b9a63b
+2025-08-17 17:14:58,415 - INFO - Enviando card para filial e5a177b2-dd9e-4f0f-95d8-6d4673b9a63b com 30 itens
+2025-08-17 17:14:58,883 - INFO - [SUCESSO] Card enviado para filial e5a177b2-dd9e-4f0f-95d8-6d4673b9a63b
+2025-08-17 17:14:58,939 - INFO - Enviando card para filial e5a177b2-dd9e-4f0f-95d8-6d4673b9a63b com 30 itens
+2025-08-17 17:14:59,419 - INFO - [SUCESSO] Card enviado para filial e5a177b2-dd9e-4f0f-95d8-6d4673b9a63b
+2025-08-17 17:14:59,483 - INFO - Enviando card para filial e5a177b2-dd9e-4f0f-95d8-6d4673b9a63b com 30 itens
+2025-08-17 17:14:59,922 - INFO - [SUCESSO] Card enviado para filial e5a177b2-dd9e-4f0f-95d8-6d4673b9a63b
+2025-08-17 17:14:59,975 - INFO - Enviando card para filial e5a177b2-dd9e-4f0f-95d8-6d4673b9a63b com 15 itens
+2025-08-17 17:15:00,378 - INFO - [SUCESSO] Card enviado para filial e5a177b2-dd9e-4f0f-95d8-6d4673b9a63b
+2025-08-17 17:15:00,415 - INFO - Enviando card para filial e676855f-7c8e-4c57-b8e5-fde5c35342bf com 30 itens
+2025-08-17 17:15:00,920 - INFO - [SUCESSO] Card enviado para filial e676855f-7c8e-4c57-b8e5-fde5c35342bf
+2025-08-17 17:15:00,966 - INFO - Enviando card para filial e676855f-7c8e-4c57-b8e5-fde5c35342bf com 23 itens
+2025-08-17 17:15:01,574 - INFO - [SUCESSO] Card enviado para filial e676855f-7c8e-4c57-b8e5-fde5c35342bf
+2025-08-17 17:15:01,617 - INFO - Enviando card para filial e7164c8f-cb6a-476c-a88e-f876573eb486 com 30 itens
+2025-08-17 17:15:02,056 - INFO - [SUCESSO] Card enviado para filial e7164c8f-cb6a-476c-a88e-f876573eb486
+2025-08-17 17:15:02,095 - INFO - Enviando card para filial e7164c8f-cb6a-476c-a88e-f876573eb486 com 4 itens
+2025-08-17 17:15:02,480 - INFO - [SUCESSO] Card enviado para filial e7164c8f-cb6a-476c-a88e-f876573eb486
+2025-08-17 17:15:02,532 - INFO - Enviando card para filial ea86e08c-c044-402f-9aaf-e36c48dba2fb com 27 itens
+2025-08-17 17:15:03,178 - INFO - [SUCESSO] Card enviado para filial ea86e08c-c044-402f-9aaf-e36c48dba2fb
+2025-08-17 17:15:03,237 - INFO - Enviando card para filial f3b01b13-dac1-432a-87eb-bd903248ef68 com 30 itens
+2025-08-17 17:15:03,706 - INFO - [SUCESSO] Card enviado para filial f3b01b13-dac1-432a-87eb-bd903248ef68
+2025-08-17 17:15:03,763 - INFO - Enviando card para filial f3b01b13-dac1-432a-87eb-bd903248ef68 com 30 itens
+2025-08-17 17:15:04,468 - INFO - [SUCESSO] Card enviado para filial f3b01b13-dac1-432a-87eb-bd903248ef68
+2025-08-17 17:15:04,523 - INFO - Enviando card para filial f3b01b13-dac1-432a-87eb-bd903248ef68 com 12 itens
+2025-08-17 17:15:04,964 - INFO - [SUCESSO] Card enviado para filial f3b01b13-dac1-432a-87eb-bd903248ef68
+2025-08-17 17:15:05,126 - INFO - Enviando card para filial f3d986f7-ca30-4cb3-bf37-82d33aaa287a com 30 itens
+2025-08-17 17:15:05,615 - INFO - [SUCESSO] Card enviado para filial f3d986f7-ca30-4cb3-bf37-82d33aaa287a
+2025-08-17 17:15:05,673 - INFO - Enviando card para filial f3d986f7-ca30-4cb3-bf37-82d33aaa287a com 3 itens
+2025-08-17 17:15:06,308 - INFO - [SUCESSO] Card enviado para filial f3d986f7-ca30-4cb3-bf37-82d33aaa287a
+2025-08-17 17:15:06,368 - INFO - Enviando card para filial f5805453-8d9f-486b-a1c6-376a3928e64d com 22 itens
+2025-08-17 17:15:07,061 - INFO - [SUCESSO] Card enviado para filial f5805453-8d9f-486b-a1c6-376a3928e64d
+2025-08-17 17:15:07,139 - INFO - Enviando card para filial f5e059ef-7890-478b-b19c-aeb71ee975b0 com 30 itens
+2025-08-17 17:15:07,775 - INFO - [SUCESSO] Card enviado para filial f5e059ef-7890-478b-b19c-aeb71ee975b0
+2025-08-17 17:15:07,851 - INFO - Enviando card para filial f5e059ef-7890-478b-b19c-aeb71ee975b0 com 30 itens
+2025-08-17 17:15:08,332 - INFO - [SUCESSO] Card enviado para filial f5e059ef-7890-478b-b19c-aeb71ee975b0
+2025-08-17 17:15:08,502 - INFO - Enviando card para filial f5e059ef-7890-478b-b19c-aeb71ee975b0 com 30 itens
+2025-08-17 17:15:08,975 - INFO - [SUCESSO] Card enviado para filial f5e059ef-7890-478b-b19c-aeb71ee975b0
+2025-08-17 17:15:09,053 - INFO - Enviando card para filial f5e059ef-7890-478b-b19c-aeb71ee975b0 com 30 itens
+2025-08-17 17:15:09,493 - INFO - [SUCESSO] Card enviado para filial f5e059ef-7890-478b-b19c-aeb71ee975b0
+2025-08-17 17:15:09,576 - INFO - Enviando card para filial f5e059ef-7890-478b-b19c-aeb71ee975b0 com 30 itens
+2025-08-17 17:15:10,059 - INFO - [SUCESSO] Card enviado para filial f5e059ef-7890-478b-b19c-aeb71ee975b0
+2025-08-17 17:15:10,111 - INFO - Enviando card para filial f5e059ef-7890-478b-b19c-aeb71ee975b0 com 30 itens
+2025-08-17 17:15:10,629 - INFO - [SUCESSO] Card enviado para filial f5e059ef-7890-478b-b19c-aeb71ee975b0
+2025-08-17 17:15:10,709 - INFO - Enviando card para filial f5e059ef-7890-478b-b19c-aeb71ee975b0 com 30 itens
+2025-08-17 17:15:11,156 - INFO - [SUCESSO] Card enviado para filial f5e059ef-7890-478b-b19c-aeb71ee975b0
+2025-08-17 17:15:11,217 - INFO - Enviando card para filial f5e059ef-7890-478b-b19c-aeb71ee975b0 com 11 itens
+2025-08-17 17:15:11,971 - INFO - [SUCESSO] Card enviado para filial f5e059ef-7890-478b-b19c-aeb71ee975b0
+2025-08-17 17:15:12,034 - INFO - Enviando card para filial f7e2a4ed-aa04-4806-8bd6-3e4df5ee1bfa com 30 itens
+2025-08-17 17:15:12,523 - INFO - [SUCESSO] Card enviado para filial f7e2a4ed-aa04-4806-8bd6-3e4df5ee1bfa
+2025-08-17 17:15:12,594 - INFO - Enviando card para filial f7e2a4ed-aa04-4806-8bd6-3e4df5ee1bfa com 28 itens
+2025-08-17 17:15:13,270 - INFO - [SUCESSO] Card enviado para filial f7e2a4ed-aa04-4806-8bd6-3e4df5ee1bfa
+2025-08-17 17:15:13,330 - INFO - Enviando card para filial fbd1ee07-ac92-4555-a8dc-6e28a7267aec com 26 itens
+2025-08-17 17:15:13,817 - INFO - [SUCESSO] Card enviado para filial fbd1ee07-ac92-4555-a8dc-6e28a7267aec
+2025-08-17 17:15:13,877 - INFO - Enviando card para filial fc122c33-5914-4c07-ac76-d707f105d18c com 21 itens
+2025-08-17 17:15:15,240 - INFO - [SUCESSO] Card enviado para filial fc122c33-5914-4c07-ac76-d707f105d18c
+2025-08-17 17:15:15,289 - INFO - Enviando card para filial fd214ee3-b4b4-4bbd-b78c-fabb62122048 com 20 itens
+2025-08-17 17:15:15,718 - INFO - [SUCESSO] Card enviado para filial fd214ee3-b4b4-4bbd-b78c-fabb62122048
+2025-08-17 17:15:15,770 - INFO - Enviando card para filial fe46de7e-1842-4a8a-b317-216d2406ad2e com 23 itens
+2025-08-17 17:15:16,323 - INFO - [SUCESSO] Card enviado para filial fe46de7e-1842-4a8a-b317-216d2406ad2e
+2025-08-17 17:15:16,591 - INFO - Relatório Excel detalhado salvo com sucesso em C:\Users\Victor Rodrigues\OneDrive - mottu.com.br\Área de Trabalho\psiAbastecimento\Relatorio_Abastecimento_Detalhado_2025-08-17_171516.xlsx
+2025-08-17 17:15:16,761 - INFO - Arquivo de backlog 'backlog_cards_semana.xlsx' salvo com sucesso com 544 registros.
+2025-08-17 17:15:17,950 - INFO - Relatório enviado por e-mail com sucesso via API Mottu.
+2025-08-19 09:35:47,165 - INFO - Obtendo token de autenticação Mottu...
+2025-08-19 09:35:48,402 - INFO - Token Mottu obtido com sucesso.
+2025-08-19 09:36:47,031 - INFO - Obtendo token de autenticação Mottu...
+2025-08-19 09:36:48,983 - INFO - Token Mottu obtido com sucesso.
+2025-08-19 09:36:52,748 - INFO - Relatório enviado por e-mail com sucesso via API Mottu.
+2025-08-19 09:38:20,148 - INFO - Obtendo token de autenticação Mottu...
+2025-08-19 09:38:21,036 - INFO - Token Mottu obtido com sucesso.
+2025-08-19 09:38:22,585 - INFO - Relatório enviado por e-mail com sucesso via API Mottu.
