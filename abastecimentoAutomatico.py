@@ -2,7 +2,7 @@ import pandas as pd
 import os
 import requests
 import logging
-from datetime import datetime
+from datetime import datetime, timedelta
 from math import ceil
 import sys
 import json
@@ -18,9 +18,10 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # --- Constantes do Script ---
-CAMINHO_BASE_PLANILHAS = r"C:\Users\vinicius.magagnini\Desktop\psiAbastecSugest"
+CAMINHO_BASE_PLANILHAS = r"C:\Users\vinicius.magagnini\Desktop\psiAbastecSugest\abastecimento_automatico"
 NOME_ARQUIVO_BACKLOG = 'backlog_cards_semana.xlsx'
 CAMINHO_BACKLOG = os.path.join(CAMINHO_BASE_PLANILHAS, NOME_ARQUIVO_BACKLOG)
+# Backlog único com coluna SemanaInicio para identificar semanas
 REQUESTER_ID = '7e48e47a-8c81-4777-a896-afb2d871ebc7'
 URL_WMS = 'https://warehouse-inventory.mottu.cloud/Order/file'
 MAX_ITENS_POR_CARD = 30
@@ -86,7 +87,7 @@ def get_planilha_para_amanha():
     return caminho_completo
 
 def validar_dados_planilha(df):
-    colunas_obrigatorias = ['cdAbastecimentoId', 'filialOperacaoId', 'originalCode', 'sugestaoAbastecimento', 'filial', 'abastecimento_cd', 'PesoTotal']
+    colunas_obrigatorias = ['cdAbastecimentoId', 'filialOperacaoId', 'originalCode', 'sugestaoAbastecimento', 'filial', 'abastecimento_cd', 'sugestaoAbastecimentoPeso']
     colunas_faltantes = [col for col in colunas_obrigatorias if col not in df.columns]
     if colunas_faltantes:
         raise ValueError(f"Colunas obrigatórias não encontradas na planilha: {colunas_faltantes}")
@@ -178,7 +179,7 @@ def criar_cards_e_salvar_backlog(token):
     path_planilha = get_planilha_para_amanha()
     df = pd.read_excel(path_planilha, dtype={'originalCode': str})
     
-    df['PesoTotal'] = pd.to_numeric(df['PesoTotal'], errors='coerce').fillna(0)
+    df['sugestaoAbastecimentoPeso'] = pd.to_numeric(df['sugestaoAbastecimentoPeso'], errors='coerce').fillna(0)
     
     validar_dados_planilha(df)
     df_filtrado = df[df['sugestaoAbastecimento'] > 0].copy()
@@ -204,12 +205,20 @@ def criar_cards_e_salvar_backlog(token):
                 
                 dia_separacao = df_card['DiasParaSeparacaoConvertido'].iloc[0]
 
+                # Calcula início da semana (domingo) para identificação
+                hoje = datetime.now()
+                dias_desde_domingo = hoje.weekday() + 1 if hoje.weekday() != 6 else 0
+                inicio_semana = hoje - timedelta(days=dias_desde_domingo)
+                semana_inicio_str = inicio_semana.strftime('%d.%m.%Y')
+                
                 resultados_sucesso.append({
                     'abastecimento_cd': abastecimento_cd, 'filial_nome': filial_nome, 
                     'dia_separacao_nome': dia_separacao, 'card_id': card_id, 
                     'qtd_skus': df_card['originalCode'].nunique(), 
                     'qtd_unidades': df_card['sugestaoAbastecimento'].sum(),
-                    'peso_total': df_card['PesoTotal'].sum()
+                    'peso_total': df_card['sugestaoAbastecimentoPeso'].sum(),
+                    'PedidoGeradoEm': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+                    'SemanaInicio': semana_inicio_str
                 })
 
                 df_card_com_id = df_card.copy()
@@ -228,7 +237,7 @@ def criar_cards_e_salvar_backlog(token):
             'abastecimento_cd', 'filial', 'originalCode', 'manutencaoInsumoNome', 
             'veiculoModelo', 'demandaMes', 'qtdEstoque', 'qtdTransito', 
             'estoqueCdabastecimento', 'estoqueCdSp', 'estoqueCdPe', 'estoqueCdSc', 
-            'estoqueCDEx', 'sugestaoAbastecimento', 'PesoTotal', 
+            'estoqueCDEx', 'sugestaoAbastecimento', 'sugestaoAbastecimentoPeso', 
             'DiasParaSeparacaoConvertido', 'ID DO PEDIDO', 'Regiao'
         ]
         
@@ -243,8 +252,8 @@ def criar_cards_e_salvar_backlog(token):
         
         try:
             df_excel_agg = df_final_excel.groupby(
-                [col for col in colunas_desejadas if col != 'PesoTotal']
-            )['PesoTotal'].sum().reset_index()
+                [col for col in colunas_desejadas if col != 'sugestaoAbastecimentoPeso']
+            )['sugestaoAbastecimentoPeso'].sum().reset_index()
 
             df_excel_agg.to_excel(caminho_arquivo_excel, index=False)
             print(f"\n[SUCESSO] Relatório Excel detalhado salvo em: {caminho_arquivo_excel}")
@@ -268,11 +277,62 @@ def criar_cards_e_salvar_backlog(token):
         print("Nenhum card foi criado com sucesso. O arquivo de backlog não será gerado.")
         return None
     
-    df_resultados = pd.DataFrame(resultados_sucesso)
+    df_novos_resultados = pd.DataFrame(resultados_sucesso)
+    
+    # Lógica de backlog incremental
+    df_novos_resultados = pd.DataFrame(resultados_sucesso)
+    
+    if os.path.exists(CAMINHO_BACKLOG):
+        try:
+            df_backlog_existente = pd.read_excel(CAMINHO_BACKLOG)
+            
+            # Verifica se o backlog existente tem as colunas necessárias
+            if 'PedidoGeradoEm' not in df_backlog_existente.columns:
+                hoje = datetime.now()
+                df_backlog_existente['PedidoGeradoEm'] = hoje.strftime('%Y-%m-%d %H:%M:%S')
+                logger.info("Adicionada coluna 'PedidoGeradoEm' ao backlog existente")
+            
+            if 'SemanaInicio' not in df_backlog_existente.columns:
+                # Calcula semana baseada na primeira data do backlog
+                if not df_backlog_existente.empty and 'PedidoGeradoEm' in df_backlog_existente.columns:
+                    primeira_data_str = df_backlog_existente['PedidoGeradoEm'].iloc[0]
+                    primeira_data = datetime.strptime(primeira_data_str, '%Y-%m-%d %H:%M:%S')
+                    dias_desde_domingo = primeira_data.weekday() + 1 if primeira_data.weekday() != 6 else 0
+                    inicio_semana_primeira = primeira_data - timedelta(days=dias_desde_domingo)
+                    df_backlog_existente['SemanaInicio'] = inicio_semana_primeira.strftime('%d.%m.%Y')
+                else:
+                    hoje = datetime.now()
+                    dias_desde_domingo = hoje.weekday() + 1 if hoje.weekday() != 6 else 0
+                    inicio_semana = hoje - timedelta(days=dias_desde_domingo)
+                    df_backlog_existente['SemanaInicio'] = inicio_semana.strftime('%d.%m.%Y')
+                logger.info("Adicionada coluna 'SemanaInicio' ao backlog existente")
+            
+            # Sempre incrementa o backlog existente
+            df_resultados = pd.concat([df_backlog_existente, df_novos_resultados], ignore_index=True)
+            print(f"\n[INFO] Incrementando backlog existente. Novos registros: {len(df_novos_resultados)}")
+            logger.info(f"Backlog incrementado: {len(df_backlog_existente)} registros existentes + {len(df_novos_resultados)} novos")
+            
+        except Exception as e:
+            logger.warning(f"Erro ao ler backlog existente, criando novo: {e}")
+            df_resultados = df_novos_resultados
+    else:
+        # Primeiro backlog
+        df_resultados = df_novos_resultados
+        print(f"\n[INFO] Criando primeiro backlog com {len(df_novos_resultados)} registros.")
+    
     try:
         df_resultados.to_excel(CAMINHO_BACKLOG, index=False)
         logger.info(f"Arquivo de backlog '{NOME_ARQUIVO_BACKLOG}' salvo com sucesso com {len(df_resultados)} registros.")
         print(f"\n[SUCESSO] Arquivo de backlog salvo em: {CAMINHO_BACKLOG}")
+        print(f"Total de registros no backlog: {len(df_resultados)}")
+        
+        # Mostra informações sobre semanas no backlog
+        if 'SemanaInicio' in df_resultados.columns:
+            semanas_unicas = df_resultados['SemanaInicio'].unique()
+            print(f"\n[INFO] Semanas presentes no backlog: {len(semanas_unicas)}")
+            for semana in sorted(semanas_unicas):
+                qtd_registros = len(df_resultados[df_resultados['SemanaInicio'] == semana])
+                print(f"  - Semana {semana}: {qtd_registros} registros")
     except Exception as e:
         logger.error(f"Falha ao salvar o arquivo de backlog: {e}")
         print(f"\n[ERRO] Não foi possível salvar o arquivo de backlog: {e}")
@@ -414,8 +474,10 @@ def main():
         print("Você deseja executar o script em qual modo?")
         print("  1 - MODO CRIAR (Execução de Domingo)")
         print("      - Gera todos os cards, o relatório detalhado e o backlog.")
+        print("      - Incrementa backlog existente com identificação de semana.")
         print("\n  2 - MODO RELATÓRIO (Execução de Segunda a Sexta)")
         print("      - Envia o e-mail D+1 com base no backlog existente.")
+        print("      - Usa o backlog acumulado (backlog_cards_semana.xlsx).")
         print("="*50)
         
         escolha = input("Digite o número da opção desejada (1 ou 2): ")
