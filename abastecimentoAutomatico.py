@@ -63,8 +63,8 @@ def get_token_mottu():
         url = 'https://sso.mottu.cloud/realms/Internal/protocol/openid-connect/token'
         headers = {'Content-Type': 'application/x-www-form-urlencoded'}
         data = {
-            'username': 'victor.rodrigues@mottu.com.br',
-            'password': '@@Welcome01',
+            'username': 'vinicius.magagnini@mottu.com.br',
+            'password': 'Vm33980404.',
             'client_id': 'mottu-admin',
             'grant_type': 'password'
         }
@@ -191,44 +191,79 @@ def criar_cards_e_salvar_backlog(token):
     resultados_sucesso, erros_envio = [], []
     dados_para_excel_detalhado = []
 
-    for (cd_id, filial_id), df_filial in df_filtrado.groupby(['cdAbastecimentoId', 'filialOperacaoId']):
-        abastecimento_cd, filial_nome = df_filial['abastecimento_cd'].iloc[0], df_filial['filial'].iloc[0]
+    def processar_cards_por_categoria(df_itens, cd_id, filial_id, abastecimento_cd, filial_nome, token, resultados_sucesso, erros_envio, dados_para_excel_detalhado):
+        """Processa os itens e cria cards separados para PNEUs, Ferramentas/EPIs e demais itens"""
+        # Define os códigos de pneus especiais
+        codigos_pneus = ['N8112230', 'N8112240', '42711-KSS-901', '44711-KSS-901']
         
-        for i in range(ceil(len(df_filial) / MAX_ITENS_POR_CARD)):
-            inicio, fim = i * MAX_ITENS_POR_CARD, (i + 1) * MAX_ITENS_POR_CARD
-            df_card = df_filial.iloc[inicio:fim]
-            resultado_envio = enviar_card_wms(df_card, token, cd_id, filial_id)
-            
-            if resultado_envio['success']:
-                card_id = resultado_envio['card_id']
-                print(f"[SUCESSO] Card {card_id} criado para {filial_nome}")
+        # Separa em categorias especiais
+        df_pneus = df_itens[df_itens['originalCode'].isin(codigos_pneus)]
+        df_nao_pneus = df_itens[~df_itens['originalCode'].isin(codigos_pneus)]
+        
+        # Dentro dos não-pneus, separa ferramentas/EPIs
+        df_especiais = df_nao_pneus[df_nao_pneus['categoriaEngenharia'].isin(['Ferramenta', 'EPI'])]
+        df_demais = df_nao_pneus[~df_nao_pneus['categoriaEngenharia'].isin(['Ferramenta', 'EPI'])]
+        
+        # Processa cada grupo separadamente
+        for df_grupo, tipo in [
+            (df_pneus, 'PNEU'),
+            (df_especiais, 'Indireto'),
+            (df_demais, 'Direto')
+        ]:
+            if df_grupo.empty:
+                continue
                 
-                dia_separacao = df_card['DiasParaSeparacaoConvertido'].iloc[0]
-
-                # Calcula início da semana (domingo) para identificação
-                hoje = datetime.now()
-                dias_desde_domingo = hoje.weekday() + 1 if hoje.weekday() != 6 else 0
-                inicio_semana = hoje - timedelta(days=dias_desde_domingo)
-                semana_inicio_str = inicio_semana.strftime('%d.%m.%Y')
+            for i in range(0, len(df_grupo), MAX_ITENS_POR_CARD):
+                df_card = df_grupo.iloc[i:i+MAX_ITENS_POR_CARD]
+                resultado_envio = enviar_card_wms(df_card, token, cd_id, filial_id)
                 
-                resultados_sucesso.append({
-                    'abastecimento_cd': abastecimento_cd, 'filial_nome': filial_nome, 
-                    'dia_separacao_nome': dia_separacao, 'card_id': card_id, 
-                    'qtd_skus': df_card['originalCode'].nunique(), 
-                    'qtd_unidades': df_card['sugestaoAbastecimento'].sum(),
-                    'peso_total': df_card['sugestaoAbastecimentoPeso'].sum(),
-                    'PedidoGeradoEm': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
-                    'SemanaInicio': semana_inicio_str
-                })
+                if resultado_envio['success']:
+                    card_id = resultado_envio['card_id']
+                    print(f"[SUCESSO] CARD {card_id} - {filial_nome} - {tipo}")
+                    
+                    dia_separacao = df_card['DiasParaSeparacaoConvertido'].iloc[0]
+                    hoje = datetime.now()
+                    dias_desde_domingo = hoje.weekday() + 1 if hoje.weekday() != 6 else 0
+                    inicio_semana = hoje - timedelta(days=dias_desde_domingo)
+                    semana_inicio_str = inicio_semana.strftime('%d.%m.%Y')
+                    
+                    resultados_sucesso.append({
+                        'abastecimento_cd': abastecimento_cd, 
+                        'filial_nome': filial_nome, 
+                        'dia_separacao_nome': dia_separacao, 
+                        'card_id': card_id, 
+                        'qtd_skus': df_card['originalCode'].nunique(), 
+                        'qtd_unidades': df_card['sugestaoAbastecimento'].sum(),
+                        'peso_total': df_card['sugestaoAbastecimentoPeso'].sum(),
+                        'PedidoGeradoEm': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+                        'SemanaInicio': semana_inicio_str,
+                        'tipo_card': tipo
+                    })
 
-                df_card_com_id = df_card.copy()
-                df_card_com_id['ID DO PEDIDO'] = card_id
-                dados_para_excel_detalhado.append(df_card_com_id)
+                    df_card_com_id = df_card.copy()
+                    df_card_com_id['ID DO PEDIDO'] = card_id
+                    df_card_com_id['tipo_card'] = tipo  # Garantindo que o tipo_card seja definido
+                    dados_para_excel_detalhado.append(df_card_com_id)
+                else:
+                    erro_msg = resultado_envio.get('error', 'Erro desconhecido')
+                    print(f"[ERRO] Falha ao criar card para {filial_nome} - {tipo}: {erro_msg}")
+                    erros_envio.append({
+                        'filial': filial_nome, 
+                        'cd': abastecimento_cd, 
+                        'tipo': tipo,
+                        'error': erro_msg
+                    })
 
-            else:
-                erro_msg = resultado_envio.get('error', 'Erro desconhecido')
-                print(f"[ERRO] Falha ao criar card para {filial_nome}: {erro_msg}")
-                erros_envio.append({'filial': filial_nome, 'cd': abastecimento_cd, 'error': erro_msg})
+    # Processa os cards para cada grupo de filial
+    for (cd_id, filial_id), df_filial in df_filtrado.groupby(['cdAbastecimentoId', 'filialOperacaoId']):
+        abastecimento_cd = df_filial['abastecimento_cd'].iloc[0]
+        filial_nome = df_filial['filial'].iloc[0]
+        
+        # Processa os itens da filial, separando por categoria
+        processar_cards_por_categoria(
+            df_filial, cd_id, filial_id, abastecimento_cd, filial_nome,
+            token, resultados_sucesso, erros_envio, dados_para_excel_detalhado
+        )
 
     if dados_para_excel_detalhado:
         df_final_excel = pd.concat(dados_para_excel_detalhado, ignore_index=True)
@@ -238,7 +273,8 @@ def criar_cards_e_salvar_backlog(token):
             'veiculoModelo', 'demandaMes', 'qtdEstoque', 'qtdTransito', 
             'estoqueCdabastecimento', 'estoqueCdSp', 'estoqueCdPe', 'estoqueCdSc', 
             'estoqueCDEx', 'sugestaoAbastecimento', 'sugestaoAbastecimentoPeso', 
-            'DiasParaSeparacaoConvertido', 'ID DO PEDIDO', 'Regiao'
+            'DiasParaSeparacaoConvertido', 'ID DO PEDIDO', 'tipo_card',
+            'categoriaEngenharia'
         ]
         
         for col in colunas_desejadas:
@@ -340,11 +376,16 @@ def criar_cards_e_salvar_backlog(token):
         
     return df_resultados
 
-def enviar_relatorio_do_backlog(token):
+def enviar_relatorio_do_backlog(token, usar_dia_atual=True):
     """
-    MODO 'relatorio': Lê o arquivo de backlog, filtra para D+1 e envia o e-mail.
+    MODO 'relatorio': Lê o arquivo de backlog, filtra para o dia atual (ou D+1) e envia o e-mail.
+    
+    Args:
+        token (str): Token de autenticação da API Mottu
+        usar_dia_atual (bool): Se True, filtra pelo dia atual. Se False, filtra por D+1 (comportamento original)
     """
-    print("MODO 'RELATORIO': Lendo backlog para enviar relatório D+1...")
+    modo = 'DIA ATUAL' if usar_dia_atual else 'D+1'
+    print(f"MODO 'RELATORIO': Lendo backlog para enviar relatório {modo}...")
     
     if not os.path.exists(CAMINHO_BACKLOG):
         print(f"ERRO: Arquivo de backlog '{NOME_ARQUIVO_BACKLOG}' não encontrado.")
@@ -359,13 +400,20 @@ def enviar_relatorio_do_backlog(token):
 
     hoje_str = datetime.now().strftime("%d/%m/%Y")
     
-    dia_seguinte_index = (datetime.now().weekday() + 1) % 7
+    # Se for usar o dia atual, pega o dia da semana atual, senão pega o próximo dia
+    if usar_dia_atual:
+        dia_index = datetime.now().weekday()
+        mensagem_dia = "o relatório será para HOJE"
+    else:
+        dia_index = (datetime.now().weekday() + 1) % 7
+        mensagem_dia = "o relatório D+1 será para"
+    
     mapa_dias = {0: 'SEGUNDA', 1: 'TERCA', 2: 'QUARTA', 3: 'QUINTA', 4: 'SEXTA', 5: 'SABADO', 6: 'DOMINGO'}
-    nome_dia_d1 = mapa_dias[dia_seguinte_index]
+    nome_dia = mapa_dias[dia_index]
     
-    print(f"Hoje é {datetime.now().strftime('%A')}, o relatório D+1 será para: {nome_dia_d1}")
+    print(f"Hoje é {datetime.now().strftime('%A')}, {mensagem_dia}: {nome_dia}")
     
-    df_resultados_d1 = df_resultados[df_resultados['dia_separacao_nome'].str.upper() == nome_dia_d1].copy()
+    df_resultados_d1 = df_resultados[df_resultados['dia_separacao_nome'].str.upper() == nome_dia].copy()
     
     df_relatorio_semanal = gerar_relatorio_semanal(df_resultados)
     html_semanal = df_relatorio_semanal.to_html(classes='custom-table') if df_relatorio_semanal is not None else "<p>Nenhum dado para a visão gerencial.</p>"
@@ -384,12 +432,19 @@ def enviar_relatorio_do_backlog(token):
             
             partes_html_diario.append(f"<h3>Cards de Separação para: {cd_nome}</h3>")
             
+            # Formata os IDs dos cards com seus respectivos tipos
+            def formatar_ids_com_tipos(group):
+                return ', '.join([f"{row['card_id']} - {row['tipo_card']}" 
+                               for _, row in group.drop_duplicates('card_id').iterrows()])
+            
             resumo_cd = df_cd.groupby('filial_nome').agg(
                 qtd_sku_distintos=('qtd_skus', 'sum'), 
                 qtd_total_unidades=('qtd_unidades', 'sum'),
                 peso_total_kg=('peso_total', 'sum'),
-                qtd_cards=('card_id', 'nunique'), 
-                card_ids=('card_id', lambda x: ', '.join(map(str, sorted(x.unique()))))
+                qtd_cards=('card_id', 'nunique'),
+                card_ids=('card_id', lambda x: formatar_ids_com_tipos(
+                    df_cd[df_cd['card_id'].isin(x)][['card_id', 'tipo_card']].drop_duplicates()
+                ))
             ).reset_index()
             
             resumo_cd['peso_total_kg'] = resumo_cd['peso_total_kg'].apply(
@@ -399,14 +454,15 @@ def enviar_relatorio_do_backlog(token):
             resumo_cd.columns = ['Filial Separada', 'Qtd SKU Distintos', 'Qtd Total Unidades', 'Peso Total', 'Qtd Cards Gerados', 'IDs dos Cards']
             partes_html_diario.append(resumo_cd.to_html(index=False, classes='custom-table'))
             
-            # Adiciona resumo do CD com peso total
+            # Adiciona resumo do CD com peso total e quantidade total de unidades
             peso_cd_formatado = f"{peso_total_cd:,.2f} Kg".replace(",", "X").replace(".", ",").replace("X", ".")
             total_cards_cd = df_cd['card_id'].nunique()
             total_filiais_cd = df_cd['filial_nome'].nunique()
+            total_unidades_cd = df_cd['qtd_unidades'].sum()
             
             partes_html_diario.append(f"""<div style="padding: 10px; margin: 10px 0; border: 1px solid #ccc;">
                 <strong>RESUMO {cd_nome}:</strong> {total_cards_cd} Cards | {total_filiais_cd} Filiais | 
-                <strong>PESO TOTAL: {peso_cd_formatado}</strong>
+                <strong>Total de Unidades: {total_unidades_cd:,} | PESO TOTAL: {peso_cd_formatado}</strong>
             </div>""")
             
             resumo_por_cd.append({
@@ -416,16 +472,16 @@ def enviar_relatorio_do_backlog(token):
                 'filiais': total_filiais_cd
             })
     else:
-        partes_html_diario.append(f"<p>Nenhum card a ser separado para o dia seguinte ({nome_dia_d1}).</p>")
+        partes_html_diario.append(f"<p>Nenhum card a ser separado para {nome_dia}.</p>")
 
     # Adiciona resumo geral do dia no início
     if peso_total_do_dia > 0:
-        peso_dia_formatado = f"{peso_total_do_dia:,.2f} Kg".replace(",", "X").replace(".", ",").replace("X", ".")
+        peso_dia_formatado = f"{peso_total_do_dia:,.2f} kg".replace(",", "X").replace(".", ",").replace("X", ".")
         total_cards_dia = df_resultados_d1['card_id'].nunique()
         total_cds_dia = len(resumo_por_cd)
         
         resumo_geral_dia = f"""<div style="padding: 15px; margin: 20px 0; border: 1px solid #ccc;">
-            <h3 style="margin-top: 0;">RESUMO GERAL DO DIA ({nome_dia_d1})</h3>
+            <h3 style="margin-top: 0;">RESUMO GERAL DO DIA ({nome_dia})</h3>
             <p style="font-size: 16px; margin: 5px 0;"><strong>Total de CDs:</strong> {total_cds_dia}</p>
             <p style="font-size: 16px; margin: 5px 0;"><strong>Total de Cards:</strong> {total_cards_dia}</p>
             <p style="font-size: 18px; margin: 10px 0;"><strong>PESO TOTAL DO DIA: {peso_dia_formatado}</strong></p>
@@ -454,9 +510,10 @@ def enviar_relatorio_do_backlog(token):
     """
 
     destinatarios = list(set([
-        # 'victor.rodrigues@mottu.com.br',
+        'victor.rodrigues@mottu.com.br',
         'vinicius.magagnini@mottu.com.br',
-        'fabio.canton@mottu.com.br', 
+        # 'fabio.canton@mottu.com.br', 
+        # 'fernanda.oliveira@mottu.com.br',
         # 'bruce.cardoso@mottu.com.br',
         # 'matheus.paula@mottu.com.br', 'joao.junqueira@mottu.com.br',
         # 'marcelo.paiva@mottu.com.br', 'rogerio.oliveira@mottu.com.br',
@@ -502,7 +559,21 @@ def main():
                 enviar_relatorio_do_backlog(token)
         
         elif modo == 'relatorio':
-            enviar_relatorio_do_backlog(token)
+            # Pergunta se deseja usar o dia atual ou D+1
+            while True:
+                print("\nEscolha o período do relatório:")
+                print("1 - Dia atual (hoje)")
+                print("2 - Próximo dia útil (D+1)")
+                escolha_periodo = input("Digite o número da opção desejada (1 ou 2): ")
+                
+                if escolha_periodo == '1':
+                    enviar_relatorio_do_backlog(token, usar_dia_atual=True)
+                    break
+                elif escolha_periodo == '2':
+                    enviar_relatorio_do_backlog(token, usar_dia_atual=False)
+                    break
+                else:
+                    print("\n!!! Opção inválida. Por favor, digite 1 ou 2. !!!")
             
     except Exception as e:
         logger.error(f"Erro fatal no script (Modo: {modo}): {e}", exc_info=True)
